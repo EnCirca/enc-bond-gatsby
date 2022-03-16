@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../../content/assets/logo.png"
+import logo from "../../content/assets/blog/hello-world/encirca-logo.png"
 import styles from "./header.module.css"
 import { useStaticQuery, graphql } from "gatsby"
 
