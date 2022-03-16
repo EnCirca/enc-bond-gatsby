@@ -1,8 +1,8 @@
 ---
-title: AltRoots
+title: Hello World
 date: "2022-03-16T22:12:03.284Z"
 description: "AltRoots Blog"
-thumbnail: ""
+thumbnail: "./encirca-logo.png"
 topics: ["hosting", "domains", "encirca"]
 pageType: "blog"
 ---
