@@ -1,18 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Essentials Blog`,
+    title: `AltRoots`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `EnCirca Inc.`,
+      summary: `SOC 2 AUDITED`,
     },
-    description: `A starter blog demonstrating what Gatsby can do, plus some essential tweaks that every blog owner would probably want.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app`,
+    description: `AltRoots Blog`,
+    siteUrl: `https://alt-roots.com`,
     social: {
-      twitter: `gatsbyjs`,
-      instagram: `gatsbyjs`,
-      github: `gatsbyjs`
+      twitter: `encirca`,
+      instagram: `encirca`,
+      github: `encirca`
     },
-    numPostsPerPage: 1 // For demonstration of pagination, you'll likely want to increase this
+    numPostsPerPage: 10 // For demonstration of pagination, you'll likely want to increase this
   },
   plugins: [
     {
