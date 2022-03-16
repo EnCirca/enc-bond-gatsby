@@ -1,9 +1,9 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+date: "2022-03-16T22:12:03.284Z"
+description: "AltRoots Blog"
 thumbnail: "./salty_egg.jpg"
-topics: ["ducks", "eggs", "food"]
+topics: ["hosting", "domains", "encirca"]
 pageType: "blog"
 ---
 

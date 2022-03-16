@@ -6,7 +6,7 @@ module.exports = {
       summary: `SOC 2 AUDITED`,
     },
     description: `AltRoots Blog`,
-    siteUrl: `https://alt-roots.com`,
+    siteUrl: `https://www.alt-roots.com/`,
     social: {
       twitter: `encirca`,
       instagram: `encirca`,
