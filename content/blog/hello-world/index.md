@@ -1,8 +1,8 @@
 ---
-title: Hello World
+title: AltRoots
 date: "2022-03-16T22:12:03.284Z"
 description: "AltRoots Blog"
-thumbnail: "./salty_egg.jpg"
+thumbnail: ""
 topics: ["hosting", "domains", "encirca"]
 pageType: "blog"
 ---
