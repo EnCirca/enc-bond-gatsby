@@ -1,5 +1,6 @@
 import React from "react"
-import logo from "../../content/assets/blog/hello-world/encirca-logo.png"
+import EncHelper from "../../src/components/encHelper"
+import logo from "../../content/assets/encirca-logo.png"
 import styles from "./header.module.css"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -20,6 +21,7 @@ const Header = () => {
 
     return (
         <header className={styles.siteHeader}>
+            <EncHelper />
             <nav>
                 <ul className={styles.menu}>
                     <li className={styles.logo}>
