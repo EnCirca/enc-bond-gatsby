@@ -21,6 +21,7 @@ collections:
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Categories", name: "topics", widget: "object"}
       - {label: "Body", name: "body", widget: "markdown"}
 
 
