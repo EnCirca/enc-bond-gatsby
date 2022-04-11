@@ -12,6 +12,9 @@ collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "content/blog/" # The path to the folder where the documents are stored
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{title}}'
     create: true # Allow users to create new documents in this collection
     slug: "{{title}}/index" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
