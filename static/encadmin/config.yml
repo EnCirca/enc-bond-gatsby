@@ -5,8 +5,8 @@ backend:
 logo_url: https://www.encirca.com/images/encirca-logo.png
 
 # These lines should *not* be indented
-media_folder: "static/images" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "content/assets/" # Media files will be stored in the repo under static/images/uploads
+public_folder: "../../assets/" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
