@@ -1,4 +1,5 @@
 ---
+pageType: blog
 title: Yet Another Test
 slug: yes-another-test
 thumbnail: ../../assets/gatsby-icon.png
