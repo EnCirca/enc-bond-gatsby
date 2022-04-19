@@ -2,7 +2,7 @@
 title: List of Features
 date: 2022-04-19T15:36:25.905Z
 description: This is a list of features built into the project.
-thumbnail: ../../assets/encirca-logo.png
+thumbnail: ../../assets/profile-pic.jpg
 topics:
   - features
 pageType: blog
