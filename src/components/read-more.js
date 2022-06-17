@@ -49,7 +49,7 @@ const ReadMore = (props) => {
 
     let randomPosts = props.isHome ? posts.slice(0,displayCount) : getRandomPosts(posts, displayCount, props.exclude)
 
-    let header = props.isHome ? "<h2>A few things I have written about</h2>" : "<h2>Read this next</h2>"
+    let header = props.isHome ? "<h2>Welcome to AltRoots</h2>" : "<h2>Read this next</h2>"
 
     return (
 
