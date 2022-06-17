@@ -17,12 +17,12 @@ const Index = ({ data }) => {
     <div>
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
       <Header />
-      <div className={styles.splash} style={{backgroundImage: "url(" + splash + ")"}}>
+      {/* <div className={styles.splash} style={{backgroundImage: "url(" + splash + ")"}}>
         <div className={styles.splashContent}>
           <h1>{siteTitle}</h1>
           <p>{siteDescription}</p>
         </div>
-      </div>
+      </div> */}
       <ReadMore displayCount={6} isHome={true} />
       <Footer />
     </div>
