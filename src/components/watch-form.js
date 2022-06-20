@@ -4,7 +4,7 @@ import styles from "./watch-form.module.css"
 const WatchForm = ({}) => {
  
     return (
-        <div id="encirca-watch-form" className={styles.watch-form}>
+        <div id="encirca-watch-form" className={styles.watchform}>
             <form class="enc-form" name="watch-form" id="watch-form" method="POST" data-netlify="true" netlify>
             <div>
                 <label>Your Name:<br /><input type="text" name="name" required="true" /></label>
