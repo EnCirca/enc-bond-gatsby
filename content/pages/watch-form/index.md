@@ -5,7 +5,7 @@ description: "AltRoots Watch Form"
 pageType: "page"
 ---
 
-<form name="watch-form" id="watch-form" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify>
+<form name="watch-form" id="watch-form" method="POST" data-netlify="true" netlify>
   <p>
     <label>Your Name: <input type="text" name="name" required="true" /></label>
   </p>
@@ -20,6 +20,7 @@ pageType: "page"
     <label>Watch Terms: <textarea name="watch-terms" required="true" ></textarea></label>
   </p>
   <p>
+    <div data-netlify-recaptcha="true"></div>
     <button type="submit">Send</button>
   </p>
 </form>
