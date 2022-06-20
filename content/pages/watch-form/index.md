@@ -5,15 +5,19 @@ description: "AltRoots Watch Form"
 pageType: "page"
 ---
 
-<form name="watch-form" id="watch-form" method="POST" data-netlify="true" netlify>
+<form name="watch-form" id="watch-form" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify>
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>
+    <label>Your Name: <input type="text" name="name" required="true" /></label>
   </p>
   <p>
-    <label>Email Address: <input type="email" name="email" /></label>
+    <label>Company Name: <input type="text" name="company-name" /></label>
   </p>
   <p>
-    <label>Watch Terms: <textarea name="watch-terms"></textarea></label>
+    <label>Email Address: <input type="email" name="email" required="true" /></label>
+    <small>A corporate email address must be used, not Gmail, Hotmail, Yahoo etc...</small>
+  </p>
+  <p>
+    <label>Watch Terms: <textarea name="watch-terms" required="true" ></textarea></label>
   </p>
   <p>
     <button type="submit">Send</button>
