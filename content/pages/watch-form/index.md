@@ -5,7 +5,7 @@ description: "AltRoots Watch Form"
 pageType: "page"
 ---
 
-<form name="watch-form" id="watch-form" method="POST" data-netlify="true" netlify>
+<form class="enc-form" name="watch-form" id="watch-form" method="POST" data-netlify="true" netlify>
   <p>
     <label>Your Name: <input type="text" name="name" required="true" /></label>
   </p>
