@@ -1,9 +1,41 @@
-html, body {
-    background-color: #EEE;
-    margin:0;
-    padding:0;
+html,
+body {
+  background-color: #EEE;
+  margin: 0;
+  padding: 0;
 }
-
 main {
-    padding-top:20px;
+  padding-top: 20px;
+}
+form.enc-form {
+  border: 1px solid #dddddd;
+  padding: 30px;
+}
+form.enc-form div {
+  width: 100%;
+  margin-bottom: 20px;
+}
+form.enc-form div label {
+  width: 100%;
+  display: block;
+}
+form.enc-form div label span {
+  color: red;
+}
+form.enc-form div input,
+form.enc-form div select {
+  padding: 5px 10px;
+  border: 1px solid #dddddd;
+}
+form.enc-form div textarea {
+  width: 100%;
+  height: 100px;
+}
+form.enc-form div.enc-form-wrap-conainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+form.enc-form div.enc-form-wrap-conainer div {
+  flex-basis: 20%;
+  padding: 5px;
 }
