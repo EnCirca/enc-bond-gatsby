@@ -29,11 +29,12 @@ const WatchForm = () => {
         <div id="encirca-watch-form" className={styles.watchform}>
             <form 
                 class="enc-form" 
-                name="watch-form" 
-                id="watch-form" 
-                method="POST"
-                onSubmit={handleSubmit}
-                netlify
+                name="watch-form"  
+                id="watch-form"  
+                method="POST" 
+                onSubmit={handleSubmit} 
+                data-netlify-recaptcha="true" 
+                netlify 
             >
             <div>
                 <label>Your Name:<br /><input type="text" name="name" required="true" /></label>
