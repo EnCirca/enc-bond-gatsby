@@ -5,7 +5,7 @@ description: "AltRoots Watch Form"
 pageType: "page"
 ---
 
-<form class="enc-form" name="watch-form" id="watch-form" method="POST" data-netlify="true" netlify>
+<form action="/thank-you/" class="enc-form" name="watch-form" id="watch-form" method="POST" data-netlify="true" netlify>
   <div>
     <label>Your Name:<br /><input type="text" name="name" required="true" /></label>
   </div>
@@ -18,7 +18,9 @@ pageType: "page"
     <input type="email" name="email" required="true" /></label>
   </div>
   <div>
-    <label>Watch Terms:<br /><textarea name="watch-terms" required="true" ></textarea></label>
+    <label>Watch Terms:<br />
+    <small>Please enter the words or brand names you want us to watch. For example: acme, kleenex, ibm etc...</small><br />
+    <textarea name="watch-terms" required="true" ></textarea></label>
   </div>
   <div>
     <div data-netlify-recaptcha="true"></div>
