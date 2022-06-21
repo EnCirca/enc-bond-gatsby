@@ -1,15 +1,17 @@
 import React from "react"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
-import ReadMore from "../components/read-more"
+// import ReadMore from "../components/read-more"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import styles from "./index.module.css"
-import splash from "../../content/assets/splash.jpg"
+// import styles from "./index.module.css"
+// import splash from "../../content/assets/splash.jpg"
 import shareImage from "../../content/assets/default-content-image.jpg"
+import WatchForm from "../components/watch-form"
 
 const Index = ({ data }) => {
-  const siteTitle = data.site.siteMetadata.title
+  
+  // const siteTitle = data.site.siteMetadata.title
   const siteDescription = data.site.siteMetadata.description
   const siteUrl = data.site.siteMetadata.siteUrl
 
@@ -17,6 +19,7 @@ const Index = ({ data }) => {
     <div>
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
       <Header />
+      <WatchForm />
       {/* <ReadMore displayCount={6} isHome={true} /> */}
       <Footer />
     </div>
