@@ -7,7 +7,7 @@ import Footer from "../components/footer"
 // import styles from "./index.module.css"
 // import splash from "../../content/assets/splash.jpg"
 import shareImage from "../../content/assets/default-content-image.jpg"
-import WatchForm from "../components/watch-form"
+//import WatchForm from "../components/watch-form"
 
 const Index = ({ data }) => {
   
@@ -19,7 +19,6 @@ const Index = ({ data }) => {
     <div>
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
       <Header />
-      <WatchForm />
       {/* <ReadMore displayCount={6} isHome={true} /> */}
       <Footer />
     </div>
