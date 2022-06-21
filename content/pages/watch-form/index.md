@@ -13,8 +13,9 @@ pageType: "page"
     <label>Company Name:<br /><input type="text" name="company-name" /></label>
   </div>
   <div>
-    <label>Email Address:<br /><input type="email" name="email" required="true" /></label>
-    <small>A corporate email address must be used, not Gmail, Hotmail, Yahoo etc...</small>
+    <label>Email Address:<br />
+    <small>A corporate email address must be used, not Gmail, Hotmail, Yahoo etc...</small><br />
+    <input type="email" name="email" required="true" /></label>
   </div>
   <div>
     <label>Watch Terms:<br /><textarea name="watch-terms" required="true" ></textarea></label>

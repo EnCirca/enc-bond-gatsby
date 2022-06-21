@@ -2,10 +2,37 @@ import React from "react"
 import styles from "./watch-form.module.css"
 
 const WatchForm = ({}) => {
+
+    function encode(data) {
+        return Object.keys(data)
+        .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+    }
+    
+    const handleSubmit = (event) => {
+    event.preventDefault();
+    fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({
+        "form-name": event.target.getAttribute("name"),
+        ...name,
+        }),
+    })
+        .then(() => navigate("/thank-you/"))
+        .catch((error) => alert(error));
+    };
  
     return (
         <div id="encirca-watch-form" className={styles.watchform}>
-            <form class="enc-form" name="watch-form" id="watch-form" method="POST" data-netlify="true"  data-netlify-recaptcha="true" netlify>
+            <form 
+                class="enc-form" 
+                name="watch-form" 
+                id="watch-form" 
+                method="POST"
+                onSubmit={handleSubmit}
+                netlify
+            >
             <div>
                 <label>Your Name:<br /><input type="text" name="name" required="true" /></label>
             </div>
