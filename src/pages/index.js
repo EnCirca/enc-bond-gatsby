@@ -1,5 +1,6 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { graphql } from "gatsby"
+import { navigate } from "gatsby"
 import SEO from "../components/seo"
 // import ReadMore from "../components/read-more"
 import Header from "../components/header"
@@ -14,6 +15,10 @@ const Index = ({ data }) => {
   // const siteTitle = data.site.siteMetadata.title
   const siteDescription = data.site.siteMetadata.description
   const siteUrl = data.site.siteMetadata.siteUrl
+
+  useEffect(() => {
+    navigate('/watch-form/');
+  })
 
   return (
     <div>
