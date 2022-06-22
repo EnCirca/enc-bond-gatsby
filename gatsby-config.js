@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `AltRoots`,
+    title: `EnCirca, Inc`,
     author: {
       name: `EnCirca Inc.`,
       summary: `SOC 2 AUDITED`,

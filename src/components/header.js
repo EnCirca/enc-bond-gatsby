@@ -22,7 +22,7 @@ const Header = () => {
     return (
         <header className={styles.siteHeader}>
             <EncHelper />
-            <nav>
+            {/* <nav>
                 <ul className={styles.menu}>
                     <li className={styles.logo}>
                         <a href="/"><img src={logo} alt={siteTitle} title={siteTitle} /></a>
@@ -30,7 +30,7 @@ const Header = () => {
                     <li className={styles.item}><a href="/faq">FAQ</a></li>
                     <li className={styles.item}><a href="/watch-form">Watch Request</a></li>
                 </ul>
-            </nav>
+            </nav> */}
         </header>
     )
 }

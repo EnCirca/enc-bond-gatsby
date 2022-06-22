@@ -1,10 +1,11 @@
 ---
-title: Watch Form
+title: AltRoots Signup Request
 thumbnail: "../../assets/default-content-image.jpg"
 description: "AltRoots Watch Form"
 pageType: "page"
 ---
 
+<h3>Launching July 15. Sign-up to receive alert.</h3>
 <form action="/thank-you/" data-netlify-recaptcha="true" class="enc-form" name="watch-form" id="watch-form" method="POST" data-netlify="true" netlify>
   <div>
     <label>Your Name:<br /><input type="text" name="name" required="true" /></label>
@@ -19,7 +20,7 @@ pageType: "page"
   </div>
   <div>
     <label>Watch Terms:<br />
-    <small>Please enter the words or brand names you want us to watch. For example: acme, kleenex, ibm etc...</small><br />
+    <small>Please enter up to 10 trademarks for a free status report.</small><br />
     <textarea name="watch-terms" required="true" ></textarea></label>
   </div>
   <div>
