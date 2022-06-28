@@ -1,4 +1,5 @@
 import React, { useEffect } from "react"
+//import React from "react"
 import { graphql } from "gatsby"
 import { navigate } from "gatsby"
 import SEO from "../components/seo"

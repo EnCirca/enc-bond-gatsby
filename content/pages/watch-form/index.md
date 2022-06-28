@@ -1,21 +1,24 @@
 ---
-title: AltRoots Signup Request
+title: Join the waiting list
 thumbnail: "../../assets/default-content-image.jpg"
 description: "AltRoots Watch Form"
 pageType: "page"
 ---
 
-<h3>Launching July 15. Sign-up to receive alert.</h3>
+<h3>Introducing AltRoots - The first trademark search engine for blockchain domains</h3>
+<p>AltRoots checks a trademark against nearly 8 million blockchain domains across multiple blockchains using advanced trademark research techniques to unearth close similarities that may be used to infringe, defraud or confuse consumers.</p>
+<p>Altroots is a service of EnCirca, Inc.  EnCirca was founded in 2001 in Boston, Massachusetts and is an ICANN-Accredited domain name registrar.  EnCirca is a leader in brand protection for both Web2 and Web3 domain name.  EnCirca’s founder previously led development for the leading Web2 trademark research platform.  For more information, please visit <a href="https://www.encirca.com" target="_blank">EnCirca online</a></p>
+<h3>Comin Soon. Sign-up to receive alert.</h3>
 <form action="/thank-you/" data-netlify-recaptcha="true" class="enc-form" name="watch-form" id="watch-form" method="POST" data-netlify="true" netlify>
   <div>
-    <label>Your Name:<br /><input type="text" name="name" required="true" /></label>
+    <label>Full Name:<br /><input type="text" name="name" required="true" /></label>
   </div>
   <div>
     <label>Company Name:<br /><input type="text" name="company-name" /></label>
   </div>
   <div>
     <label>Email Address:<br />
-    <small>A corporate email address must be used, not Gmail, Hotmail, Yahoo etc...</small><br />
+    <small>AltRoots members must use their corporate email address in order to sign up.</small><br />
     <input type="email" name="email" required="true" /></label>
   </div>
   <div>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `EnCirca, Inc`,
+    title: `AltRoots Trademark Watch`,
     author: {
       name: `EnCirca Inc.`,
       summary: `SOC 2 AUDITED`,

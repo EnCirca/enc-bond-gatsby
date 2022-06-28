@@ -1,6 +1,6 @@
 import React from "react"
-import EncHelper from "../../src/components/encHelper"
-import logo from "../../content/assets/altroots_tmp_logo.png"
+// import EncHelper from "../../src/components/encHelper"
+import logo from "../../content/assets/altroots-logo.png"
 import styles from "./header.module.css"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -21,16 +21,15 @@ const Header = () => {
 
     return (
         <header className={styles.siteHeader}>
-            <EncHelper />
-            {/* <nav>
+            <nav>
                 <ul className={styles.menu}>
                     <li className={styles.logo}>
                         <a href="/"><img src={logo} alt={siteTitle} title={siteTitle} /></a>
                     </li>
-                    <li className={styles.item}><a href="/faq">FAQ</a></li>
-                    <li className={styles.item}><a href="/watch-form">Watch Request</a></li>
+                    {/* <li className={styles.item}><a href="/faq">FAQ</a></li>
+                    <li className={styles.item}><a href="/watch-form">Watch Request</a></li> */}
                 </ul>
-            </nav> */}
+            </nav>
         </header>
     )
 }
