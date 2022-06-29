@@ -24,6 +24,9 @@ pageType: "page"
     <textarea name="watch-terms" required="true" ></textarea></label>
   </div>
   <div>
+    <label><input type="checkbox" name="webinar-schedule-request" />Send me your webinar schedule<label>
+  </div>
+  <div>
     <div data-netlify-recaptcha="true"></div>
     <button type="submit">Send</button>
   </div>
