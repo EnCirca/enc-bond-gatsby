@@ -35,7 +35,8 @@
 .site-header .logo img {
   vertical-align:middle;
   margin-right:1em;
-  max-width:120px;
+  max-width:269px;
+  margin:auto;
 }
 .site-header .item {
   padding: 1em;
@@ -54,6 +55,7 @@
 }
 .site-header nav ul li.logo a {
   padding:.5em .5em;
+  text-align:center;
 }
 .site-header .menu li a {
   display: block;
