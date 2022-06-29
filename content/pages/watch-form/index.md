@@ -1,5 +1,5 @@
 ---
-title: Introducing AltRoots - The first trademark watch for blockchain domains
+title: The first trademark watch for blockchain domains
 thumbnail: "../../assets/default-content-image.jpg"
 description: "AltRoots Watch Form"
 pageType: "page"
@@ -19,7 +19,7 @@ pageType: "page"
     <input type="email" name="email" required="true" /></label>
   </div>
   <div>
-    <label>Watch Terms:<br />
+    <label>Watch Terms (optional):<br />
     <small>Please enter up to 10 trademarks for a free status report.</small><br />
     <textarea name="watch-terms" required="true" ></textarea></label>
   </div>
