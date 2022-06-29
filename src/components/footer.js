@@ -1,6 +1,6 @@
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faTwitter, faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons"
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+//import { faTwitter, faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons"
 import styles from "./footer.module.css"
 import { useStaticQuery, graphql } from "gatsby"
 

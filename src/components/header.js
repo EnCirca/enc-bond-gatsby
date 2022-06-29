@@ -24,7 +24,9 @@ const Header = () => {
             <nav>
                 <ul className={styles.menu}>
                     <li className={styles.logo}>
-                        <a href="/"><img src={logo} alt={siteTitle} title={siteTitle} /></a>
+                        <a href="/">
+                          <img src={logo} alt={siteTitle} title={siteTitle} />
+                        </a>
                     </li>
                     {/* <li className={styles.item}><a href="/faq">FAQ</a></li>
                     <li className={styles.item}><a href="/watch-form">Watch Request</a></li> */}

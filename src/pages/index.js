@@ -1,11 +1,11 @@
-import React, { useEffect } from "react"
-//import React from "react"
+//import React, { useEffect } from "react"
+import React from "react"
 import { graphql } from "gatsby"
-import { navigate } from "gatsby"
+//import { navigate } from "gatsby"
 import SEO from "../components/seo"
 // import ReadMore from "../components/read-more"
-import Header from "../components/header"
-import Footer from "../components/footer"
+// import Header from "../components/header"
+// import Footer from "../components/footer"
 // import styles from "./index.module.css"
 // import splash from "../../content/assets/splash.jpg"
 import shareImage from "../../content/assets/default-content-image.jpg"
@@ -17,16 +17,17 @@ const Index = ({ data }) => {
   const siteDescription = data.site.siteMetadata.description
   const siteUrl = data.site.siteMetadata.siteUrl
 
-  useEffect(() => {
-    navigate('/watch-form/');
-  })
+  // useEffect(() => {
+  //   navigate('/watch-form/');
+  // })
 
   return (
     <div>
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
-      <Header />
+      {/* <Header /> */}
+      <h1>Coming Soon!</h1>
       {/* <ReadMore displayCount={6} isHome={true} /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
