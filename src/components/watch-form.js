@@ -5,20 +5,11 @@ const WatchForm = () => {
 
     const handleSubmit = (e) => {
         console.log(e);
-        return true;
     }
 
     return (
         <div id="encirca-watch-form" className={styles.watchform}>
-            <form 
-                class="enc-form" 
-                name="watch-form"  
-                id="watch-form"  
-                method="POST" 
-                onSubmit={ handleSubmit } 
-                data-netlify-recaptcha="true" 
-                netlify 
-            >
+            <form name="watch-form"  id="watch-form" onsubmit={handleSubmit}>
             <div>
                 <label>Your Name:<br /><input type="text" name="name" required="true" /></label>
             </div>
@@ -40,6 +31,7 @@ const WatchForm = () => {
                 <div data-netlify-recaptcha="true"></div>
                 <button type="submit">Send</button>
             </div>
+            <input type="hidden" name="form-name" value="watch-form" />
             </form>
         </div>
     )
