@@ -3,13 +3,9 @@ import styles from "./watch-form.module.css"
 
 const WatchForm = () => {
 
-    const handleSubmit = (e) => {
-        console.log(e);
-    }
-
     return (
         <div id="encirca-watch-form" className={styles.watchform}>
-            <form name="watch-form"  id="enc-watch-form" onsubmit={handleSubmit}>
+            <form name="watch-form"  id="enc-watch-form">
             <div>
                 <label>Your Name:<br /><input type="text" name="name" required="true" /></label>
             </div>
