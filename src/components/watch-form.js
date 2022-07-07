@@ -9,7 +9,7 @@ const WatchForm = () => {
 
     return (
         <div id="encirca-watch-form" className={styles.watchform}>
-            <form name="watch-form"  id="watch-form" onsubmit={handleSubmit}>
+            <form name="watch-form"  id="enc-watch-form" onsubmit={handleSubmit}>
             <div>
                 <label>Your Name:<br /><input type="text" name="name" required="true" /></label>
             </div>

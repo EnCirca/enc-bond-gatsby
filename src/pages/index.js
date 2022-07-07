@@ -23,7 +23,7 @@ const Index = ({ data }) => {
 
   return (
     <div>
-      <form name="watch-form" netlify netlify-honeypot="bot-field" hidden>
+      <form name="enc-watch-form" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" required="true" />
       <input type="text" name="company-name" />
       <input type="email" name="email" required="true" />
