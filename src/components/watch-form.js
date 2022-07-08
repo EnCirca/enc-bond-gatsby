@@ -1,11 +1,19 @@
 import React from "react"
 import styles from "./watch-form.module.css"
+import ReCAPTCHA from "react-google-recaptcha"
 
 const WatchForm = () => {
 
     return (
         <div id="encirca-watch-form" className={styles.watchform}>
-            <form name="enc-watch-form" method="POST" id="enc-watch-form" data-netlify="true" action="/thank-you">
+            <form 
+                name="enc-watch-form" 
+                method="POST" 
+                id="enc-watch-form" 
+                data-netlify="true" 
+                data-netlify-recaptcha="true"
+                action="/thank-you"
+            >
             <input type="hidden" name="form-name" value="enc-watch-form" />
             <div>
                 <label>Your Name:<br /><input type="text" name="name" required="true" /></label>
@@ -24,7 +32,7 @@ const WatchForm = () => {
                 <textarea name="watch-terms" required="true" ></textarea></label>
             </div>
             <div>
-                <div data-netlify-recaptcha="true"></div>
+                <ReCAPTCHA sitekey="6LdKCtYgAAAAAGCK2mdpikn-EjpbvpBkM-2hoFex" />
                 <button type="submit">Send</button>
             </div>
             <input type="hidden" name="form-name" value="watch-form" />
