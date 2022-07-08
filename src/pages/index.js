@@ -23,12 +23,6 @@ const Index = ({ data }) => {
 
   return (
     <div>
-      <form name="enc-watch-form" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" required="true" />
-      <input type="text" name="company-name" />
-      <input type="email" name="email" required="true" />
-      <textarea name="watch-terms" required="true" ></textarea>
-      </form>
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
       {/* <Header /> */}
       <h1>Coming Soon!</h1>
