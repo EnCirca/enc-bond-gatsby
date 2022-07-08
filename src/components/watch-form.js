@@ -5,7 +5,7 @@ const WatchForm = () => {
 
     return (
         <div id="encirca-watch-form" className={styles.watchform}>
-            <form name="enc-watch-form" method="POST" id="enc-watch-form" data-netlify="true">
+            <form name="enc-watch-form" method="POST" id="enc-watch-form" data-netlify="true" action="/thank-you">
             <input type="hidden" name="form-name" value="enc-watch-form" />
             <div>
                 <label>Your Name:<br /><input type="text" name="name" required="true" /></label>
