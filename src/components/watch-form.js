@@ -32,7 +32,7 @@ const WatchForm = () => {
                 <textarea name="watch-terms" required="true" ></textarea></label>
             </div>
             <div>
-                <ReCAPTCHA sitekey="6LdKCtYgAAAAAGCK2mdpikn-EjpbvpBkM-2hoFex" />
+                <ReCAPTCHA sitekey="6LcBENYgAAAAABttHtD7kvkByQKqlV7KSZy9zEqB" />
                 <button type="submit">Send</button>
             </div>
             <input type="hidden" name="form-name" value="watch-form" />
