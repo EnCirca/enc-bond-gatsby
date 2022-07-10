@@ -1,8 +1,7 @@
 import React, {useEffect} from "react"
 import styles from "./watch-form.module.css"
 import ReCAPTCHA from "react-google-recaptcha"
-import {Elements} from '@stripe/react-stripe-js';
-import {loadStripe} from '@stripe/stripe-js';
+import EncCart from '../components/enccart'
 
 const WatchForm = () => {
 
@@ -67,6 +66,7 @@ const WatchForm = () => {
                 </div>
                 <input type="hidden" name="form-name" value="watch-form" />
             </form>
+            <EncCart />
         </div>
     )
 }
