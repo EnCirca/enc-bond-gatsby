@@ -1,7 +1,3 @@
-require("dotenv").config({
-  path: `.env`,
-})
-
 module.exports = {
   siteMetadata: {
     title: `AltRoots Trademark Watch`,
@@ -151,7 +147,7 @@ module.exports = {
       resolve: `gatsby-source-stripe`,
       options: {
         objects: ["Price"],
-        secretKey: process.env.STRIPE_SECRET_KEY,
+        secretKey: 'sk_test_51L3kYQAG5rO3KPKhSZiRvlPH4MiMGtzN88qOgfp1ftVucFz0gUeK0sYSXpK2buHVU5kVmbQS6xz85qJ28bmDRVxd00RuH8pXu7',
         downloadFiles: false,
       },
     },
