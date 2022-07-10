@@ -19,7 +19,7 @@ const WatchForm = () => {
                 id="enc-watch-form" 
                 data-netlify="true" 
                 data-netlify-recaptcha="true"
-                action="/thank-you"
+                action=""
                 onSubmit={processForm}
             >
                 <input type="hidden" name="form-name" value="enc-watch-form" />
