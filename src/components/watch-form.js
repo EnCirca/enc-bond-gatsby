@@ -1,14 +1,9 @@
-import React, {useEffect} from "react"
+import React from "react"
 import styles from "./watch-form.module.css"
 import ReCAPTCHA from "react-google-recaptcha"
 import EncCart from '../components/enccart'
 
 const WatchForm = () => {
-
-    const processForm = (e) => {
-        console.log(e);
-        return false;
-    }
 
     return (
         <div id="encirca-watch-form" className={styles.watchform}>
@@ -19,7 +14,6 @@ const WatchForm = () => {
                 data-netlify="true" 
                 data-netlify-recaptcha="true"
                 action=""
-                onSubmit={processForm}
             >
                 <input type="hidden" name="form-name" value="enc-watch-form" />
                 <div>
