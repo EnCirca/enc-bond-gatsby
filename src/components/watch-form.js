@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect} from "react"
 import styles from "./watch-form.module.css"
 import ReCAPTCHA from "react-google-recaptcha"
 import {Elements} from '@stripe/react-stripe-js';
@@ -6,8 +6,9 @@ import {loadStripe} from '@stripe/stripe-js';
 
 const WatchForm = () => {
 
-    const processForm = () => {
-        console.log('processing');
+    const processForm = (e) => {
+        console.log(e);
+        return false;
     }
 
     return (
