@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `AltRoots Trademark Watch`,
@@ -6,7 +10,7 @@ module.exports = {
       summary: `SOC 2 AUDITED`,
     },
     description: `AltRoots Blog`,
-    siteUrl: `https://www.alt-roots.com/`,
+    siteUrl: `https://www.altroots.com/`,
     social: {
       twitter: `encirca`,
       instagram: `encirca`,
@@ -147,7 +151,7 @@ module.exports = {
       resolve: `gatsby-source-stripe`,
       options: {
         objects: ["Price"],
-        secretKey: 'sk_test_51L3kYQAG5rO3KPKhSZiRvlPH4MiMGtzN88qOgfp1ftVucFz0gUeK0sYSXpK2buHVU5kVmbQS6xz85qJ28bmDRVxd00RuH8pXu7',
+        secretKey: process.env.GATSBY_STRIPE_SECRET_KEY,
         downloadFiles: false,
       },
     },

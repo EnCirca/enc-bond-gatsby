@@ -10,6 +10,7 @@ import SEO from "../components/seo"
 // import splash from "../../content/assets/splash.jpg"
 import shareImage from "../../content/assets/default-content-image.jpg"
 //import WatchForm from "../components/watch-form"
+import Products from "../components/products/products"
 
 const Index = ({ data }) => {
   
