@@ -1,7 +1,6 @@
 import React from "react"
 import styles from "./watch-form.module.css"
 import ReCAPTCHA from "react-google-recaptcha"
-import EncCart from '../components/enccart'
 
 const WatchForm = () => {
 
@@ -13,7 +12,6 @@ const WatchForm = () => {
                 id="enc-watch-form" 
                 data-netlify="true" 
                 data-netlify-recaptcha="true"
-                action=""
             >
                 <input type="hidden" name="form-name" value="enc-watch-form" />
                 <div>
@@ -60,7 +58,6 @@ const WatchForm = () => {
                 </div>
                 <input type="hidden" name="form-name" value="watch-form" />
             </form>
-            <EncCart />
         </div>
     )
 }
