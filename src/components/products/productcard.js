@@ -71,6 +71,9 @@ const ProductCard = ({ product }) => {
             <h4>{product.name}</h4>
           </legend>
           <label>
+            Watch Terms: <textarea name="watchTerms" />
+          </label>
+          <label>
             Price{" "}
             <select name="priceSelect">
               {product.prices.map(price => (
