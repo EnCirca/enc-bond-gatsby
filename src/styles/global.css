@@ -59,7 +59,7 @@ form.enc-form div.enc-form-wrap-conainer div {
   display: flex;
   justify-content: center;
   max-width: 1200px;
-  margin: 200px auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 #altroots-watch-container #altroots-left {
   width: 50%;
