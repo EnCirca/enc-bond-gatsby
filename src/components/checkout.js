@@ -1,5 +1,6 @@
 import React, { useState } from "react"
-import getStripe from "../../utils/stripejs"
+import getStripe from "../utils/stripejs"
+import axios from "axios"
 
 const buttonStyles = {
   fontSize: "13px",
@@ -20,17 +21,27 @@ const buttonDisabledStyles = {
 const Checkout = () => {
   const [loading, setLoading] = useState(false)
 
-  const redirectToCheckout = async event => {
+  const handleSubmit = async event => {
     event.preventDefault()
     setLoading(true)
 
-    const stripe = await getStripe()
-    const { error } = await stripe.redirectToCheckout({
-      mode: "payment",
-      lineItems: [{ price: "price_1LKM3cAG5rO3KPKhP8tNkpcj", quantity: 1 }],
-      successUrl: `http://localhost:8000/page-2/`,
-      cancelUrl: `http://localhost:8000/`,
+    const watchTerms = new FormData(event.target).get("watchTerms")
+    const custEmail = new FormData(event.target).get("custEmail")
+    const stripe = await getStripe();
+ 
+    const session = await axios.post('http://localhost:4000/stripeCreateSession', {
+      "success_url": "http://localhost/thank-you/",
+      "cancel_url": "http://localhost/cancel/",
+      "line_items": [{ price: "price_1LKM3cAG5rO3KPKhP8tNkpcj", quantity: 1 }],
+      "mode": "payment",
     })
+    .then(function (response) {
+      return response;
+    })
+    .catch(function (error) {
+      return error;
+    });
+    const { error } = await stripe.redirectToCheckout(session.data)
 
     if (error) {
       console.warn("Error:", error)
@@ -38,16 +49,45 @@ const Checkout = () => {
     }
   }
 
+  // const redirectToCheckout = async event => {
+  //   event.preventDefault()
+  //   setLoading(true)
+
+  //   const stripe = await getStripe()
+  //   const { error } = await stripe.redirectToCheckout({
+  //     mode: "payment",
+  //     lineItems: [{ price: "price_1LKM3cAG5rO3KPKhP8tNkpcj", quantity: 1 }],
+  //     successUrl: `http://localhost:8000/page-2/`,
+  //     cancelUrl: `http://localhost:8000/`,
+  //   })
+
+  //   if (error) {
+  //     console.warn("Error:", error)
+  //     setLoading(false)
+  //   }
+  // }
+
   return (
-    <button
-      disabled={loading}
-      style={
-        loading ? { ...buttonStyles, ...buttonDisabledStyles } : buttonStyles
-      }
-      onClick={redirectToCheckout}
-    >
-      BUY MY BOOK
-    </button>
+    <form onSubmit={handleSubmit} className="enc-form">
+      <div>
+        <label>
+        Email<br /><input type="email" name="custEmail" />
+        </label> 
+      </div>
+      <div>
+        <label>
+          Customer Reference<br /><input type="text" name="custRef" />
+        </label>
+      </div>
+      <div>
+        <label>
+        Watch Terms<br /><textarea name="watchTerms" />
+        </label>
+      </div>
+      <div>
+      <button disabled={loading}>Start Watching</button>
+      </div>
+    </form>
   )
 }
 

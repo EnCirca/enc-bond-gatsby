@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import getStripe from "../../utils/stripejs"
 
-
 const cardStyles = {
   display: "flex",
   flexDirection: "column",
@@ -14,6 +13,7 @@ const cardStyles = {
   borderRadius: "6px",
   maxWidth: "300px",
 }
+
 const buttonStyles = {
   display: "block",
   fontSize: "13px",
@@ -49,13 +49,25 @@ const ProductCard = ({ product }) => {
     setLoading(true)
 
     const price = new FormData(event.target).get("priceSelect")
-    const stripe = await getStripe()
-    const { error } = await stripe.redirectToCheckout({
-      mode: "payment",
-      lineItems: [{ price, quantity: 1 }],
-      successUrl: `${window.location.origin}/page-2/`,
-      cancelUrl: `${window.location.origin}/advanced`,
-    })
+    const watchTerms = new FormData(event.target).get("watchTerms")
+    const custEmail = new FormData(event.target).get("custEmail")
+    const stripe = await getStripe();
+    // const stripe = require('stripe')('sk_test_51L3kYQAG5rO3KPKhSZiRvlPH4MiMGtzN88qOgfp1ftVucFz0gUeK0sYSXpK2buHVU5kVmbQS6xz85qJ28bmDRVxd00RuH8pXu7');
+    
+    // const session = await stripe.checkout.sessions.create({
+    //   success_url: '/thank-you/',
+    //   cancel_url: '/cancel/',
+    //   lineItems: [{ price, quantity: 1 }],
+    //   mode: 'payment',
+    //   metadata: {
+    //     "watch_terms" : watchTerms,
+    //     "email" : custEmail,
+    //   }
+    // });
+    
+
+
+    const { error } = await stripe.redirectToCheckout({sessionId : 'cs_test_a1HAV9RYsGytcLof4w749LZJu1bydcdyGfVPUkFT4XATwugkVZcl4xqxOp'})
 
     if (error) {
       console.warn("Error:", error)
@@ -70,6 +82,12 @@ const ProductCard = ({ product }) => {
           <legend>
             <h4>{product.name}</h4>
           </legend>
+          <label>
+            Email: <input type="email" name="custEmail" />
+          </label>
+          <label>
+            Customer Reference: <input type="text" name="custRef" />
+          </label>
           <label>
             Watch Terms: <textarea name="watchTerms" />
           </label>

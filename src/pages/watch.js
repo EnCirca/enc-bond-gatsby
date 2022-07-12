@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import shareImage from "../../content/assets/default-content-image.jpg"
-import Products from "../components/products/products"
+import Checkout from "../components/checkout"
 
 const Watch = ({ data }) => {
   
@@ -17,7 +17,7 @@ const Watch = ({ data }) => {
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
       <Header />
       <h1>Watch</h1>
-      <Products />
+      <Checkout />
       <Footer />
     </div>
   )
