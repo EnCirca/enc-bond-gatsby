@@ -12,8 +12,8 @@ const Checkout = () => {
     const custEmail = new FormData(event.target).get("custEmail")
     const stripe = await getStripe();
     const session = await axios.post('http://localhost:4000/stripeCreateSession', {
-      "success_url": "http://localhost:8000/thank-you/",
-      "cancel_url": "http://localhost:8000/watch/",
+      "success_url": "http://altroots.com/thank-you/",
+      "cancel_url": "http://altroots.com/watch/",
       "metadata": {
         "watch_terms": watchTerms,
         "cust_email": custEmail,

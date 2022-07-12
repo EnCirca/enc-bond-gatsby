@@ -12,11 +12,12 @@ const Watch = ({ data }) => {
   const siteDescription = data.site.siteMetadata.description
   const siteUrl = data.site.siteMetadata.siteUrl
 
+
   return (
     <div>
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
       <Header />
-      <div id="altroots-header-image">Image</div>
+      {/* <div id="altroots-header-image"></div> */}
       <div id="altroots-watch-container">
         <div id="altroots-left">
           <h1>AltRoots Headline</h1>
