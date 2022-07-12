@@ -16,8 +16,16 @@ const Watch = ({ data }) => {
     <div>
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
       <Header />
-      <h1>Watch</h1>
-      <Checkout />
+      <div id="altroots-header-image">Image</div>
+      <div id="altroots-watch-container">
+        <div id="altroots-left">
+          <h1>AltRoots Headline</h1>
+          <p><h3>
+          u, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, 
+          </h3></p>
+        </div>
+        <Checkout />
+      </div>
       <Footer />
     </div>
   )

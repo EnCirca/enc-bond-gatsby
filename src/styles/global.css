@@ -7,15 +7,15 @@ body {
 main {
   padding-top: 20px;
 }
-footer {
+#gatsby-focus-wrapper footer {
   bottom: 0;
   height: 30px;
   left: 0;
   position: sticky;
   width: 100%;
+  padding: 20px 0;
 }
 form.enc-form {
-  border: 1px solid #dddddd;
   padding: 30px;
 }
 form.enc-form div {
@@ -45,4 +45,23 @@ form.enc-form div.enc-form-wrap-conainer {
 form.enc-form div.enc-form-wrap-conainer div {
   flex-basis: 20%;
   padding: 5px;
+}
+#altroots-header-image {
+  position: absolute;
+  top: 160px;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 200px;
+  background-color: red;
+}
+#altroots-watch-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 200px auto 0 auto;
+}
+#altroots-watch-container #altroots-left {
+  width: 50%;
+  padding: 30px;
 }

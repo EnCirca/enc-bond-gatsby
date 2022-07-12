@@ -21,9 +21,7 @@ const ContentPageTemplate = ({ data, location }) => {
       />
       <article className={styles.contentPage} itemScope itemType="http://schema.org/Article">
         <header>
-          <h1 itemProp="headline">
-            {page.frontmatter.title}
-          </h1>
+
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: page.html }}
