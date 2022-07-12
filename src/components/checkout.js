@@ -32,6 +32,10 @@ const Checkout = () => {
     const session = await axios.post('http://localhost:4000/stripeCreateSession', {
       "success_url": "http://localhost/thank-you/",
       "cancel_url": "http://localhost/cancel/",
+      "metadata": {
+        "watch_terms": watchTerms,
+        "cust_email": custEmail,
+      },
       "line_items": [{ price: "price_1LKM3cAG5rO3KPKhP8tNkpcj", quantity: 1 }],
       "mode": "payment",
     })
