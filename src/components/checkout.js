@@ -20,7 +20,8 @@ const Checkout = () => {
         "cust_email": custEmail,
         "client_ref": custRef,
       },
-      "line_items": [{ price: "price_1LKM3cAG5rO3KPKhP8tNkpcj", quantity: 1 }],
+      "line_items": [{ price: process.env.GATSBY_SINGLE_EXACT_SEARCH_PRODUCT, quantity: 1 }],
+      
       "mode": "payment",
     })
     .then(function (response) {
