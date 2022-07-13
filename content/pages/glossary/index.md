@@ -4,6 +4,8 @@ title: Glossary
 thumbnail: ../../assets/altroots-logo-250.png
 date: 2022-07-13T21:30:58.732Z
 ---
+## **Altroots.com Glossary**
+
 **Claimable**
 
 Some blockchain platforms such as Handshake and Unstoppable Domains have temporarily reserved trademarks to be claimed only by trademark owners. EnCirca can help you with that process.
