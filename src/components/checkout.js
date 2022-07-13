@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import getStripe from "../utils/stripejs"
 import axios from "axios"
 import styles from "./checkout.module.css" 
@@ -12,7 +12,7 @@ const Checkout = () => {
     const custEmail = new FormData(event.target).get("custEmail")
     const custRef = new FormData(event.target).get("custRef")
     const stripe = await getStripe();
-    const session = await axios.post('http://localhost:4000/stripeCreateSession', {
+    const session = await axios.post('https://encirca-watch.encircalabs.com:4000/stripeCreateSession', {
       "success_url": "http://altroots.com/thank-you/",
       "cancel_url": "http://altroots.com/watch/",
       "metadata": {
@@ -37,6 +37,18 @@ const Checkout = () => {
     }
   }
 
+  useEffect(() => {
+    //do not allow spaces
+    const watchInput = document.getElementById('watch-term-input');
+    watchInput.addEventListener('keyup', (e) => {
+      let keyedCode = e.code;
+        if (keyedCode === 'Space') {
+          watchInput.value = watchInput.value.replace(/\s/g, '')
+        }
+    })
+    
+  }, []);
+
   return (
     <div className={styles.watchFormContainer}>
     <form onSubmit={handleSubmit} className="enc-form">
@@ -56,7 +68,7 @@ const Checkout = () => {
       </div>
       <div>
         <label>
-        Watch Terms<br />
+        Watch Term<br />
         <small>Enter a single brand name or word you would like us to search.</small><br />
         <input id="watch-term-input" type="text" name="watchTerms" />
         </label>
