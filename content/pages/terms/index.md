@@ -6,8 +6,6 @@ date: 2022-07-13T22:26:31.472Z
 ---
 <h2>EnCirca Altroots Terms</h2>
 
-
-
 This is an agreement between “you” and EnCirca, Inc. (“EnCirca”) a United States Corporation based in the state of Massachusetts. This agreement explains the basis upon which all transactions, including domain registrations and related services, between you and EnCirca will take place and our responsibilities toward each other.
 
 This agreement covers any other services offered by EnCirca, including: DNS management, website and email hosting and online marketing services.
@@ -41,11 +39,7 @@ You acknowledge that EnCirca’s acceptance of any application made by you for s
 * [EnCirca Privacy and Security](#privacy)
 * [Security Lock Terms and Conditions](#securitylock)
 
- 
-
 ## General Terms
-
- 
 
 ### [](<>)Fees
 
@@ -57,15 +51,15 @@ You agree that we may, at EnCirca’s sole discretion, allow you to renew your d
 
 ### [](<>)Expiration Policy
 
-[Expiration Policy](/legal/expiration/)
+[Expiration Policy](https://www.encirca.com/legal/expiration/)
 
 ### [](<>)Restore Policy
 
-[Restore Policy, Accuracy and Form](/restore/)
+[Restore Policy, Accuracy and Form](https://www.encirca.com/restore/)
 
 ### [](<>)Autorenewal Policy
 
-[Autorenewal Policy for Domains and Services](/legal/autorenew/)
+[Autorenewal Policy for Domains and Services](https://www.encirca.com/legal/autorenew/)
 
 ### [](<>)Currency Conversion
 
@@ -119,11 +113,11 @@ Any Registrant that intends to license use of a domain name to a third party is 
 
 ### [](<>)Whois Privacy Service Policy
 
-[EnCirca’s Whois Privacy Service Information](/legal/whois-privacy-legal-terms/)
+[EnCirca’s Whois Privacy Service Information](https://www.encirca.com/legal/whois-privacy-legal-terms/)
 
 ### [](<>)Agents
 
-You explicitly authorize us to act as your “Designated Agent” (as defined in ICANN’s  [transfer policy](https://www.icann.org/resources/pages/transfer-policy-2016-06-01-en) ) to approve each “Change of Registrant” (as defined in ICANN’s  [transfer policy](https://www.icann.org/resources/pages/transfer-policy-2016-06-01-en) ) on your behalf.
+You explicitly authorize us to act as your “Designated Agent” (as defined in ICANN’s  transfer policy ) to approve each “Change of Registrant” (as defined in ICANN’s  [transfer policy](https://www.icann.org/resources/pages/transfer-policy-2016-06-01-en) ) on your behalf.
 
 You agree that, if you are registering a domain name for or on behalf of someone else, you represent that you have the authority to nonetheless bind that person as a principal to all terms and conditions provided herein. You agree that if you license the use of the domain name registered to you to a third party, you nonetheless remain the domain name holder of record, and remain responsible for all obligations under this Agreement, including but not limited to payment obligations, and providing (and updating, as necessary) both your own full and accurate contact information, and accurate technical, administrative, billing and zone contact information adequate to facilitate timely resolution of any problems that arise in connection with the domain name and domain name registration and for ensuring non-infringement of any third party intellectual property rights or other rights.
 
@@ -149,18 +143,9 @@ You agree that EnCirca is not lending You access to its registrar connections or
 
 You agree to provide your customers with adequate customer support, and to maintain contact with them with regard to providing a medium for them to communicate changes in the information they provided as part of the domain name registration process. Upon receiving corrected or updated information you will, within 5 business days, provide such information to EnCirca so EnCirca may update its registration records. You will retain copies of all communications between you and your customers and will upon request provide EnCirca copies of same.
 
-### [](<>)Hosting and Email Service Agreements
-
-* [General Hosting and Email Service Agreements](/hosting-service-agreement/)
-* [Additional Secure VPS Hosting Agreements](/pdfs/vps-hosting-terms1.pdf)
-
 ### [](<>)EnCirca Privacy and Security
 
-[Privacy and security terms can be found here.](/legal/privacy/)
-
-### [](<>)Security Lock Terms and Conditions
-
-[Security Lock terms can be found here.](/pdfs/EnCirca-Registrar-Security-Lock-Terms-Contract.pdf)
+[Privacy and security terms can be found here.](https://www.encirca.com/legal/privacy/)
 
 ### [](<>)Suspension of Services
 
@@ -280,5 +265,3 @@ Suite 1725\
 Woburn, MA. USA 01801
 
 Delivery shall be deemed to have been made by you to EnCirca five (5) days after the date sent.
-
-<!--EndFragment-->
