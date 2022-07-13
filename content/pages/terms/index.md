@@ -37,6 +37,18 @@ You acknowledge that EnCirca’s acceptance of any application made by you for s
 * [Resale Practices](#resale)
 * [EnCirca Privacy and Security](#privacy)
 <li><a href="#suspension">Suspension of Services</a></li>
+<li><a href="#breach">Breach of Agreement</a></li>
+<li><a href="#restriction">Restriction of Services</a></li>
+<li><a href="#refusal">Right of Refusal</a></li>
+<li><a href="#liability">Limitation of Liability</a></li>
+<li><a href="#indemnity">Indemnity</a></li>
+<li><a href="#warranties1">Representation and Warranties</a></li>
+<li><a href="#warranties2">Disclaimer of Warranties</a></li>
+<li><a href="#severability">Severability Entirety</a></li>
+<li><a href="#venue">Venue</a></li>
+<li><a href="#trial">Waiver of Trial by Jury</a></li>
+<li><a href="#notices">Notices</a></li>
+
 
 ## General Terms
 
