@@ -4,6 +4,8 @@ title: FAQ
 thumbnail: ../../assets/altroots-logo-250.png
 date: 2022-07-13T21:21:59.806Z
 ---
+## **Frequently Asked Questions**
+
 **What is Altroots?**
 
 AltRoots checks a trademark against nearly 8 million blockchain domains across multiple blockchains using advanced trademark research techniques to unearth close similarities that may be used to infringe, defraud or confuse consumers.
