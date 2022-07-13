@@ -12,7 +12,7 @@ const Checkout = () => {
     const custEmail = new FormData(event.target).get("custEmail")
     const custRef = new FormData(event.target).get("custRef")
     const stripe = await getStripe();
-    const session = await axios.post('https://encirca-watch.encircalabs.com:4000/stripeCreateSession', {
+    const session = await axios.post(process.env.GATSBY_SESSION_DOMAIN + '/stripeCreateSession', {
       "success_url": "http://altroots.com/thank-you/",
       "cancel_url": "http://altroots.com/watch/",
       "metadata": {
@@ -40,13 +40,14 @@ const Checkout = () => {
   useEffect(() => {
     //do not allow spaces
     const watchInput = document.getElementById('watch-term-input');
+    const notAllowed = ['Space', 'Comma']
     watchInput.addEventListener('keyup', (e) => {
       let keyedCode = e.code;
-        if (keyedCode === 'Space') {
-          watchInput.value = watchInput.value.replace(/\s/g, '')
-        }
+      if (notAllowed.includes(keyedCode)) {
+        watchInput.value = watchInput.value.slice(0,-1)
+      }
     })
-    
+
   }, []);
 
   return (
