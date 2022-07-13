@@ -50,7 +50,8 @@ const Checkout = () => {
     })
 
   }, []);
-
+  console.log('test')
+  console.log(process.env.GATSBY_SESSION_DOMAIN)
   return (
     <div className={styles.watchFormContainer}>
     <form onSubmit={handleSubmit} className="enc-form">
