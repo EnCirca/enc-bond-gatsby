@@ -12,7 +12,7 @@ date: 2022-07-13T20:36:38.045Z
         <ul>
             <li>Postal Mail: EnCirca Altroots, 400 West Cummings Park, Suite 1725, Woburn, MA 01801 USA</li>
         </ul>
-<form data-netlify-recaptcha="true" class="enc-form" name="contact" id="contact" method="POST" data-netlify="true" netlify><h3>EnCirca Altroots Support Form</h3>
+<form data-netlify-recaptcha="true" class="enc-form" name="altroots-contact" id="contact" method="POST" data-netlify="true" netlify><h3>EnCirca Altroots Support Form</h3>
             <div>
                 First Name:<br /><input name="first-name" type="text" />
             </div>
