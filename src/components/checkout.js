@@ -10,6 +10,7 @@ const Checkout = () => {
     setLoading(true)
     const watchTerms = new FormData(event.target).get("watchTerms")
     const custEmail = new FormData(event.target).get("custEmail")
+    const custRef = new FormData(event.target).get("custRef")
     const stripe = await getStripe();
     const session = await axios.post('http://localhost:4000/stripeCreateSession', {
       "success_url": "http://altroots.com/thank-you/",
@@ -17,6 +18,7 @@ const Checkout = () => {
       "metadata": {
         "watch_terms": watchTerms,
         "cust_email": custEmail,
+        "client_ref": custRef,
       },
       "line_items": [{ price: "price_1LKM3cAG5rO3KPKhP8tNkpcj", quantity: 1 }],
       "mode": "payment",
@@ -42,21 +44,21 @@ const Checkout = () => {
         <label>
         Email<br />
         <small>Enter your company email address. Shared email addresses from google, yahoo etc. can not be used.</small><br />
-        <input type="email" name="custEmail" />
+        <input id="cust-email-input" type="email" name="custEmail" />
         </label> 
       </div>
       <div>
         <label>
           Customer Reference<br />
           <small>Enter a client reference number help track your search report internally.</small><br />
-          <input type="text" name="custRef" />
+          <input id="cust-ref-input" type="text" name="custRef" />
         </label>
       </div>
       <div>
         <label>
         Watch Terms<br />
         <small>Enter a single brand name or word you would like us to search.</small><br />
-        <textarea name="watchTerms" />
+        <input id="watch-term-input" type="text" name="watchTerms" />
         </label>
       </div>
       <div>
