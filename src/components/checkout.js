@@ -43,7 +43,7 @@ const Checkout = () => {
     //do not allow spaces
     const watchInput = document.getElementById('watch-term-input')
     const custEmailInput = document.getElementById('cust-email-input')
-    const notAllowed = ['Space', 'Comma']
+    const notAllowed = ['Space', 'Comma', 'Colon', 'Semicolon']
     const emailNotAllowed = ["gmail.com", "msn.com", "aol.com", "yahoo.com", "mac.com", "hotmail.com", "icloud.com"]
     watchInput.addEventListener('keyup', (e) => {
       let keyedCode = e.code;
@@ -73,14 +73,14 @@ const Checkout = () => {
         <label>
           Customer Reference<br />
           <small>Enter a client reference number help track your search report internally.</small><br />
-          <input id="cust-ref-input" type="text" name="custRef" />
+          <input id="cust-ref-input" type="text" name="custRef" maxLength="100" />
         </label>
       </div>
       <div>
         <label>
         Watch Term<br />
         <small>Enter a single brand name or word you would like us to search.</small><br />
-        <input id="watch-term-input" type="text" name="watchTerms" />
+        <input id="watch-term-input" type="text" name="watchTerms" maxLength="100" />
         </label>
       </div>
       <div>

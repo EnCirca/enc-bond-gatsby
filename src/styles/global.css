@@ -3,6 +3,21 @@ body {
   background-color: #EEE;
   margin: 0;
   padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  line-height: 23px;
+}
+h1 {
+  font-size: 30px;
+  line-height: 35px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 32px;
+}
+h3 {
+  font-size: 22px;
+  line-height: 27px;
 }
 main {
   padding-top: 20px;
@@ -17,6 +32,8 @@ main {
 }
 form.enc-form {
   padding: 30px;
+  background-color: #fff;
+  box-shadow: 3px 3px 12px #bbb;
 }
 form.enc-form div {
   width: 100%;
@@ -61,7 +78,8 @@ form.enc-form div.enc-form-wrap-conainer div {
   max-width: 1200px;
   margin: 0 auto 0 auto;
 }
-#altroots-watch-container #altroots-left {
+#altroots-watch-container #altroots-left,
+#altroots-watch-container #altroots-right {
   width: 50%;
   padding: 30px;
 }
