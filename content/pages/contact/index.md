@@ -21,11 +21,9 @@ date: 2022-07-13T20:36:38.045Z
             </div>
             <div>
                 Email:<br /><input type="text" name="email" />
-            </div>            <div>
-               Altroots Question:<br /><input type="text" name="question" />
-            </div>
+            </div>           
             <div>
-                Message:<br /><textarea name="comments"></textarea>
+                Altroots Question:<br /><textarea name="comments"></textarea>
             </div>
             <div>
                 <div data-netlify-recaptcha="true"></div>
