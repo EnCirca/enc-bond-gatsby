@@ -36,26 +36,15 @@ You acknowledge that EnCirca’s acceptance of any application made by you for s
 * [Transfer of Domain Names](#transfer)
 * [Resale Practices](#resale)
 * [EnCirca Privacy and Security](#privacy)
-*<li><a href="#suspension">Suspension of Services</a></li>
-<li><a href="#breach">Breach of Agreement</a></li>
-<li><a href="#restriction">Restriction of Services</a></li>
-<li><a href="#refusal">Right of Refusal</a></li>
-<li><a href="#liability">Limitation of Liability</a></li>
-<li><a href="#indemnity">Indemnity</a></li>
-<li><a href="#warranties1">Representation and Warranties</a></li>
-<li><a href="#warranties2">Disclaimer of Warranties</a></li>
-<li><a href="#severability">Severability Entirety</a></li>
-<li><a href="#venue">Venue</a></li>
-<li><a href="#trial">Waiver of Trial by Jury</a></li>
-<li><a href="#notices">Notices</a></li>
+  *<li><a href="#suspension">Suspension of Services</a></li>
 
 ## General Terms
 
-### [](fees)Fees
+### [](fees)<a name="fees"></a>Fees
 
 In consideration for the services and products (“service”) purchased by you and provided to you by EnCirca, you agree to pay EnCirca at the time service is provided. Payment is to be made by you providing a valid credit card for charge by EnCirca, and is non-refundable. If for any reason EnCirca is unable to charge your credit card with the full amount owed EnCirca for the service provided, or if EnCirca is charged back for any fee it previously charged to the credit card you provided, you agree that EnCirca may pursue all available remedies in order to obtain payment. You agree that among the remedies EnCirca may pursue in order to effect payment, shall include but will not be limited to, immediate cancellation without notice to you of any domain names registered or renewed on your behalf.
 
-### [](grace)Grace Period
+### <a name="grace"></a>[](grace)Grace Period
 
 You agree that we may, at EnCirca’s sole discretion, allow you to renew your domain name after its expiration date has passed. Transfer of your domain following the expiration date is not permitted. You agree that after the expiration date of your domain name registration and before it is deleted or renewed, we may direct your domain name to an IP address designated by us, including, without limitation, to an IP address which hosts a parking, under construction or other temporary page that may include promotions and advertisements for, and links to, EnCirca’s Web site, EnCirca product and service offerings, third-party Web sites, third-party product and service offerings, and/or Internet search engines, and you agree that we may place our contact information in the WHOIS output for the expired domain name.
 
