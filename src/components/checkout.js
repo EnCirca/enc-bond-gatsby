@@ -12,6 +12,7 @@ const Checkout = () => {
     const custEmail = new FormData(event.target).get("custEmail")
     const custRef = new FormData(event.target).get("custRef")
     const stripe = await getStripe();
+
     const session = await axios.post(process.env.GATSBY_SESSION_DOMAIN + '/stripeCreateSession', {
       "success_url": "http://altroots.com/thank-you/",
       "cancel_url": "http://altroots.com/watch/",
@@ -80,6 +81,11 @@ const Checkout = () => {
         Watch Term<br />
         <small>Enter a single brand name or word you would like us to search.</small><br />
         <input id="watch-term-input" type="text" name="watchTerms" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" name="terms-check" value="1" />I agree to the <a href="http://www.encirca.com/terms">Terms Of Service.</a>
         </label>
       </div>
       <div>
