@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import getStripe from "../utils/stripejs"
 import axios from "axios"
-import styles from "./checkout.module.css" 
+import styles from "./checkout.module.css"
 
 const Checkout = () => {
   const [loading, setLoading] = useState(false)

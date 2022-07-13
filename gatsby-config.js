@@ -1,6 +1,16 @@
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
+if (process.env.NODE_ENV == 'development') {
+  require("dotenv").config({
+    path: `.env.dev`,
+  });
+} else if (process.env.BRANCH == 'qa') {
+  require("dotenv").config({
+    path: `.env.qa`,
+  });
+} else {
+  require("dotenv").config({
+    path: `.env.prod`,
+  });
+}
 
 module.exports = {
   siteMetadata: {
