@@ -10,7 +10,7 @@ Some blockchain platforms such as Handshake and Unstoppable Domains have tempora
 
 **Recover**
 
-
+Your searched trademark is already registered by someone else.  If you are the trademark owner, EnCirca can help you recover your trademark. Go to <a href="https://altroots.com/recover/">altroots.com/recover/</a> to begin the process. 
 
 **Register**
 
@@ -23,8 +23,6 @@ If a domain is available, it can be registered on the blockchain. EnCirca can he
 </ul>
 
 **Block**
-
-
 
 **TLD**
 
