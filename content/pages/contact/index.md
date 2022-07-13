@@ -10,10 +10,10 @@ date: 2022-07-13T20:36:38.045Z
             <li>Call: +1.781-942-9975 and leave a message, including your email address.<br/>Provide enough information in your request so that we can research your issue.</li>
         </ul>
         <ul>
-            <li>Postal Mail: EnCirca, Inc., 400 West Cummings Park, Suite 1725, Woburn, MA 01801 USA</li>
+            <li>Postal Mail: EnCirca Altroots, 400 West Cummings Park, Suite 1725, Woburn, MA 01801 USA</li>
         </ul>
     </div>
-        <form netlify name="Contact Us" class="enc-form" data-netlify-recaptcha="true">
+        <form netlify name="contact" class="enc-form" data-netlify-recaptcha="true" id="contact" method="POST" data-netlify="true" netlify>
             <div>
                 First Name:<br /><input name="first-name" type="text" />
             </div>
