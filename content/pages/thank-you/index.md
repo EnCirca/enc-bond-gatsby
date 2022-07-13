@@ -1,5 +1,5 @@
 ---
-title: thank-you
+title: Success
 thumbnail: ../../assets/altroots-logo-250.png
 description: Thank You
 pageType: page
