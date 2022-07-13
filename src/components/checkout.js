@@ -40,18 +40,24 @@ const Checkout = () => {
 
   useEffect(() => {
     //do not allow spaces
-    const watchInput = document.getElementById('watch-term-input');
+    const watchInput = document.getElementById('watch-term-input')
+    const custEmailInput = document.getElementById('cust-email-input')
     const notAllowed = ['Space', 'Comma']
+    const emailNotAllowed = ["gmail.com", "msn.com", "aol.com", "yahoo.com", "mac.com", "hotmail.com", "icloud.com"]
     watchInput.addEventListener('keyup', (e) => {
       let keyedCode = e.code;
       if (notAllowed.includes(keyedCode)) {
         watchInput.value = watchInput.value.slice(0,-1)
       }
     })
-
+    custEmailInput.addEventListener('keyup', (e) => {
+      emailNotAllowed.forEach(addy => {
+        if (custEmailInput.value.includes(addy)) {
+          custEmailInput.value = custEmailInput.value.replace(addy, '')
+        }
+      })
+    })
   }, []);
-  console.log('test')
-  console.log(process.env.GATSBY_SESSION_DOMAIN)
   return (
     <div className={styles.watchFormContainer}>
     <form onSubmit={handleSubmit} className="enc-form">
