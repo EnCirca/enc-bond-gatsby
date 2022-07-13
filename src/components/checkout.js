@@ -40,17 +40,23 @@ const Checkout = () => {
     <form onSubmit={handleSubmit} className="enc-form">
       <div>
         <label>
-        Email<br /><input type="email" name="custEmail" />
+        Email<br />
+        <small>Enter your company email address. Shared email addresses from google, yahoo etc. can not be used.</small><br />
+        <input type="email" name="custEmail" />
         </label> 
       </div>
       <div>
         <label>
-          Customer Reference<br /><input type="text" name="custRef" />
+          Customer Reference<br />
+          <small>Enter a client reference number help track your search report internally.</small><br />
+          <input type="text" name="custRef" />
         </label>
       </div>
       <div>
         <label>
-        Watch Terms<br /><textarea name="watchTerms" />
+        Watch Terms<br />
+        <small>Enter a single brand name or word you would like us to search.</small><br />
+        <textarea name="watchTerms" />
         </label>
       </div>
       <div>
