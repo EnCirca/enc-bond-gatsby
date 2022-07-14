@@ -8,4 +8,8 @@
   background-color: #1BB53F;
   font-weight: bold;
   padding: 15px;
+  border: none;
+}
+.watchFormContainer button:hover {
+  cursor: pointer;
 }

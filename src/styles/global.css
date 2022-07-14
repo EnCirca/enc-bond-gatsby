@@ -74,12 +74,14 @@ form.enc-form div.enc-form-wrap-conainer div {
 }
 #altroots-watch-container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   max-width: 1200px;
   margin: 0 auto 0 auto;
 }
 #altroots-watch-container #altroots-left,
 #altroots-watch-container #altroots-right {
-  width: 50%;
+  flex-basis: 45%;
   padding: 30px;
 }

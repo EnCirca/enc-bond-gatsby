@@ -8,13 +8,38 @@ const Checkout = () => {
   const handleSubmit = async event => {
     event.preventDefault()
     setLoading(true)
+    
+    const watchInput = document.getElementById('watch-term-input')
+    const watchInputError = document.getElementById('watch-term-input-error')
+    const custRefInput = document.getElementById('cust-ref-input')
+    const custRefInputError = document.getElementById('cust-ref-input-error')
+    const termsCheck = document.getElementById('terms-check')
+    const termsCheckError = document.getElementById('terms-check-error')
     const watchTerms = new FormData(event.target).get("watchTerms")
     const custEmail = new FormData(event.target).get("custEmail")
     const custRef = new FormData(event.target).get("custRef")
+    const watchForm = document.getElementById('watch-single-exact-form')
     const stripe = await getStripe();
 
+    if (custRefInput.value.length === 0) { 
+      custRefInput.style.borderColor = 'red';
+      custRefInput.style.borderWidth = '3px';
+      custRefInputError.style.display = 'block';
+      return false
+    }
+
+    if (watchInput.value.length === 0) { 
+      watchInput.style.borderColor = 'red';
+      watchInput.style.borderWidth = '3px';
+      watchInputError.style.display = 'block';
+    }
+
+    if (termsCheck.value === 'false') {
+      termsCheckError.style.display = 'block';
+    }
+    console.log(termsCheck.value)
     const session = await axios.post(process.env.GATSBY_SESSION_DOMAIN + '/stripeCreateSession', {
-      "success_url": "http://altroots.com/thank-you/",
+      "success_url": "http://altroots.com/success/",
       "cancel_url": "http://altroots.com/watch/",
       "metadata": {
         "watch_terms": watchTerms,
@@ -61,31 +86,34 @@ const Checkout = () => {
   }, []);
   return (
     <div className={styles.watchFormContainer}>
-    <form onSubmit={handleSubmit} className="enc-form">
+    <form onSubmit={handleSubmit} className="enc-form" id="watch-single-exact-form">
       <div>
         <label>
-        Email<br />
-        <small>Enter your company email address. Shared email addresses from google, yahoo etc. can not be used.</small><br />
-        <input id="cust-email-input" type="email" name="custEmail" />
+          <strong>Email</strong><br />
+          <small>Enter your company email address. Shared email addresses from google, yahoo etc. can not be used.</small><br />
+          <input id="cust-email-input" type="email" name="custEmail" />
         </label> 
       </div>
       <div>
         <label>
-          Customer Reference<br />
+          <strong>Customer Reference</strong><br />
+          <span id="cust-ref-input-error" className={styles.inputError} style={{color:'red', display:'none'}}>ERROR:Customer Reference Must Not Be Empty.</span>
           <small>Enter a client reference number help track your search report internally.</small><br />
           <input id="cust-ref-input" type="text" name="custRef" maxLength="100" />
         </label>
       </div>
       <div>
         <label>
-        Watch Term<br />
-        <small>Enter a single brand name or word you would like us to search.</small><br />
-        <input id="watch-term-input" type="text" name="watchTerms" maxLength="100" />
+          <strong>Watch Term</strong><br />
+          <span id="watch-term-input-error" className={styles.inputError} style={{color:'red', display:'none'}}>ERROR:Watch Term Must Not Be Empty.</span>
+          <small>Enter a single brand name or word you would like us to search.</small><br />
+          <input id="watch-term-input" type="text" name="watchTerms" maxLength="100" />
         </label>
       </div>
       <div>
         <label>
-          <input type="checkbox" name="terms-check" value="1" />I agree to the <a href="http://www.encirca.com/terms">Terms Of Service.</a>
+        <span id="terms-check-error" className={styles.inputError} style={{color:'red', display:'none'}}>ERROR:You Must Agree To The Terms Of Service</span>
+          <input type="checkbox" name="terms-check" id="terms-check" value="1" />I agree to the <a href="https://altroots.com/terms/">Terms Of Service.</a>
         </label>
       </div>
       <div>
