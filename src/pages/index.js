@@ -12,7 +12,6 @@ const Watch = ({ data }) => {
   const siteDescription = data.site.siteMetadata.description
   const siteUrl = data.site.siteMetadata.siteUrl
 
-
   return (
     <div>
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
