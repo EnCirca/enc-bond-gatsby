@@ -40,7 +40,6 @@ const Footer = () => {
                     <li className={styles.item}><a href="/glossary">Glossary</a></li>
                     <li className={styles.item}><a href="/terms">Terms</a></li>
                     <li className={styles.item}><a href="/contact">Contact</a></li>
-                    <li className={styles.item}><a href="/request-more-information">More Information</a></li>
                 </ul>
             </nav>
         </footer>
