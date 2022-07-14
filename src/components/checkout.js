@@ -12,8 +12,8 @@ const Checkout = () => {
     
     const watchInput = document.getElementById('watch-term-input')
     const watchInputError = document.getElementById('watch-term-input-error')
-    const custRefInput = document.getElementById('cust-ref-input')
-    const custRefInputError = document.getElementById('cust-ref-input-error')
+    const custEmailInput = document.getElementById('cust-email-input')
+    const custEmailInputError = document.getElementById('cust-email-input-error')
     const termsCheck = document.getElementById('terms-check')
     const termsCheckError = document.getElementById('terms-check-error')
     const watchTerms = new FormData(event.target).get("watchTerms")
@@ -22,27 +22,27 @@ const Checkout = () => {
     const stripe = await getStripe()
 
     watchInputError.style.display = 'none'
-    watchInputError.style.borderColor = '#ddd'
-    watchInputError.style.borderWidth = '1px'
+    watchInput.style.borderColor = '#ddd'
+    watchInput.style.borderWidth = '1px'
 
-    custRefInputError.style.display = 'none'
-    custRefInputError.style.borderColor = '#ddd'
-    custRefInputError.style.borderWidth = '1px'
+    custEmailInputError.style.display = 'none'
+    custEmailInput.style.borderColor = '#ddd'
+    custEmailInput.style.borderWidth = '1px'
 
     termsCheckError.style.display = 'none'
-
-    if (custRefInput.value.length === 0) { 
-      custRefInput.style.borderColor = 'red';
-      custRefInput.style.borderWidth = '3px';
-      custRefInputError.style.display = 'block';
-      canSubmit = false;
-      setLoading(false);
-    }
 
     if (watchInput.value.length === 0) { 
       watchInput.style.borderColor = 'red';
       watchInput.style.borderWidth = '3px';
       watchInputError.style.display = 'block';
+      canSubmit = false;
+      setLoading(false);
+    }
+
+    if (custEmailInput.value.length === 0) { 
+      custEmailInput.style.borderColor = 'red';
+      custEmailInput.style.borderWidth = '3px';
+      custEmailInputError.style.display = 'block';
       canSubmit = false;
       setLoading(false);
     }
@@ -86,7 +86,7 @@ const Checkout = () => {
     //do not allow spaces
     const watchInput = document.getElementById('watch-term-input')
     const custEmailInput = document.getElementById('cust-email-input')
-    const notAllowed = ['Space', 'Comma', 'Colon', 'Semicolon']
+    const notAllowed = ['Space', 'Comma', 'Colon', 'Semicolon', 'Enter']
     const emailNotAllowed = ["gmail.com", "msn.com", "aol.com", "yahoo.com", "mac.com", "hotmail.com", "icloud.com"]
     watchInput.addEventListener('keyup', (e) => {
       let keyedCode = e.code;
@@ -108,13 +108,14 @@ const Checkout = () => {
       <div>
         <label>
           <strong>Email</strong><br />
+          <span id="cust-email-input-error" className={styles.inputError} style={{color:'red', display:'none'}}>ERROR:Email Address Is Required.</span>
           <small>Enter your company email address. Shared email addresses from google, yahoo etc. can not be used.</small><br />
           <input id="cust-email-input" type="email" name="custEmail" />
         </label> 
       </div>
       <div>
         <label>
-          <strong>Customer Reference</strong><br />
+          <strong>Customer Reference (optional)</strong><br />
           <span id="cust-ref-input-error" className={styles.inputError} style={{color:'red', display:'none'}}>ERROR:Customer Reference Must Not Be Empty.</span>
           <small>Enter a client reference number help track your search report internally.</small><br />
           <input id="cust-ref-input" type="text" name="custRef" maxLength="100" />
