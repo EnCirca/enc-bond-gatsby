@@ -28,7 +28,7 @@ const Checkout = () => {
     custRefInputError.style.display = 'none'
     custRefInputError.style.borderColor = '#ddd'
     custRefInputError.style.borderWidth = '1px'
-    
+
     termsCheckError.style.display = 'none'
 
     if (custRefInput.value.length === 0) { 
@@ -55,7 +55,7 @@ const Checkout = () => {
     
     const session = await axios.post(process.env.GATSBY_SESSION_DOMAIN + '/stripeCreateSession', {
       "success_url": "http://altroots.com/success/",
-      "cancel_url": "http://altroots.com/watch/",
+      "cancel_url": "http://altroots.com",
       "metadata": {
         "watch_terms": watchTerms,
         "cust_email": custEmail,
