@@ -21,6 +21,16 @@ const Checkout = () => {
     const custRef = new FormData(event.target).get("custRef")
     const stripe = await getStripe()
 
+    watchInputError.style.display = 'none'
+    watchInputError.style.borderColor = '#ddd'
+    watchInputError.style.borderWidth = '1px'
+
+    custRefInputError.style.display = 'none'
+    custRefInputError.style.borderColor = '#ddd'
+    custRefInputError.style.borderWidth = '1px'
+    
+    termsCheckError.style.display = 'none'
+
     if (custRefInput.value.length === 0) { 
       custRefInput.style.borderColor = 'red';
       custRefInput.style.borderWidth = '3px';
