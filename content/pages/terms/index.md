@@ -4,239 +4,154 @@ title: Terms
 thumbnail: ../../assets/altroots-logo-250.png
 date: 2022-07-13T22:26:31.472Z
 ---
-<h2>EnCirca Altroots Terms</h2>
+<h2>EnCirca Altroots Terms and Conditions</h2>
 
-This is an agreement between “you” and EnCirca, Inc. (“EnCirca”) a United States Corporation based in the state of Massachusetts. This agreement explains the basis upon which all transactions, including domain registrations and related services, between you and EnCirca will take place and our responsibilities toward each other.
+Encirca, Inc. (“Encirca”) is a provider of Altroots brand protection services.  These Encirca AltRoots Terms and Conditions (the “Agreement”) apply to Encirca’s Altroots Service, which is a trademark research tool for discovering exact and close matches for blockchain domain names.
 
-This agreement covers any other services offered by EnCirca, including: DNS management, website and email hosting and online marketing services.
+1. <ins>Definitions.</ins>
+   (a)	The following terms, when appearing with a capital letter, have the meaning set forth below:
 
-The term “you” shall refer to yourself. By entering into this agreement, in addition to transactions entered into by you on your behalf, you also agree to be bound by the terms of this agreement for transactions entered into on your behalf by anyone acting as your Agent. You also agree to be bound by the terms of this agreement for transactions entered into by anyone who uses the account you’ve established with EnCirca, whether or not the transactions were in your behalf.
+   **“Affiliate”** of a Party means any legal entity that directly or indirectly controls, is controlled by or is under common control with the Party. For the purpose of this definition, “control” means the power to direct, or to cause the direction of, through the ownership of voting securities, by contract or otherwise of more than 50% of the relevant legal entity; 
 
-To complete the order process, you must read this entire agreement, as well as our dispute policy and agree to be bound by all the terms and conditions. You acknowledge that EnCirca is a reseller of various services and an accredited registrar bound by an agreement between EnCirca and the Internet Corporation for Assigned Names and Numbers (“ICANN”). You also acknowledge that EnCirca is a registrar bound by Registrar-Registry Agreements between EnCirca and various Domain Name Registries.\
-You agree that EnCirca may modify this agreement in order to comply with applicable law and the terms and conditions set forth by ICANN or any Domain Name Registry.
+   “**Authorized Persons**” means those Persons (whether personnel of Customer or its clients), who are authorized by Encirca to have access to and use the Encirca Platform. Authorized Persons are limited to employees of Customer.  Authorized Persons does not include partners of Customer or client partners, unless agreed upon in writing between the Parties. For the avoidance of doubt, Customer is not permitted to expand the scope of this license to users which in any manner resell the Services. 
 
-You acknowledge that EnCirca’s acceptance of any application made by you for services provided by EnCirca will take place at EnCirca’s offices located in Massachusetts, USA.
+   **“Encirca Platform”** means the proprietary platforms which Encirca makes accessible to Authorized Persons, including but not limited to any future Encirca platform, Enhancements or iterations of these platforms or new platforms provided by Encirca for use by its Customers; and any backup or copy of the Platforms which is to be maintained and operated by Encirca as necessary to perform and deliver the Services hereunder.
 
-### General Terms
+   **“Customer”** is the party that purchases the Services.
 
-* [Fees](#fees)
-* [Grace Period](#grace)
-* [Expiration Policy](#expiration)
-* [Restore Policy](#restore)
-* [Autorenewal Policy](#autorenew)
-* [Currency Conversion](#currency)
-* [Tax Obligations](#tax)
-* [Terms of Agreement](#term)
-* [Modifications](#modifications)
-* [Up to Date Information](#uptodate)
-* [Use of Information](#use)
-* [Whois Privacy Service Policy](#whoisprivacy)
-* [Agents](#agents)
-* [Dispute Resolution](#dispute)
-* [Transfer of Domain Names](#transfer)
-* [Resale Practices](#resale)
-* [EnCirca Privacy and Security](#privacy)
-<li><a href="#suspension">Suspension of Services</a></li>
-<li><a href="#breach">Breach of Agreement</a></li>
-<li><a href="#restriction">Restriction of Services</a></li>
-<li><a href="#refusal">Right of Refusal</a></li>
-<li><a href="#liability">Limitation of Liability</a></li>
-<li><a href="#indemnity">Indemnity</a></li>
-<li><a href="#warranties1">Representation and Warranties</a></li>
-<li><a href="#warranties2">Disclaimer of Warranties</a></li>
-<li><a href="#severability">Severability Entirety</a></li>
-<li><a href="#venue">Venue</a></li>
-<li><a href="#trial">Waiver of Trial by Jury</a></li>
-<li><a href="#notices">Notices</a></li>
+   **“Customer Data”** any and all data provided by Customer to Encirca under the Agreement, including the information provided under the contract, legal or other documentation and materials and all information, reports, and analysis which has been loaded onto, created, edited, modified or otherwise produced by an Authorized Person or Customer as a result of using the Encirca Platform. This does not include public information or output otherwise produced by Encirca or the Encirca Platform that is not designated within the scope of Services delivered to the Customer.
 
+   **“Enhancement”** means any update, upgrade, new version, modification or enhancement to the Encirca Platform.
 
-## General Terms
+   **“Force Majeure”** means any cause beyond Encirca’s control, as a result of which Encirca is unable to perform its obligations under the Agreement. Such causes include but are not limited to acts of God, labour conflicts, acts of war or civil disruption, governmental regulations, public utility failures, network failures, industry-wide shortages of labour or material, natural disasters or health crises.
+   
+   **"Intellectual Property Rights”** means any copyright, database right, design right, rights to inventions (whether or not patentable), patents, patent applications, know-how, trademarks, service marks, trade secrets and any rights similar or analogous to any of the foregoing, in each case: (a) whether arising by operation of law, registrable or registered; (b) whether now known or in the future created; (c) in each and every part of the world; (d) for the full term of such rights together with any extensions; (e) including (without limitation) all future rights where capable of present assignment; and (f) with the right to claim for past infringement.
 
-### [](fees)<a name="fees"></a>Fees
+   **“Party”/”Parties”** means in singular either Encirca, by and through its related entities, or the Customer and in plural both Encirca and Customer.
 
-In consideration for the services and products (“service”) purchased by you and provided to you by EnCirca, you agree to pay EnCirca at the time service is provided. Payment is to be made by you providing a valid credit card for charge by EnCirca, and is non-refundable. If for any reason EnCirca is unable to charge your credit card with the full amount owed EnCirca for the service provided, or if EnCirca is charged back for any fee it previously charged to the credit card you provided, you agree that EnCirca may pursue all available remedies in order to obtain payment. You agree that among the remedies EnCirca may pursue in order to effect payment, shall include but will not be limited to, immediate cancellation without notice to you of any domain names registered or renewed on your behalf.
+   **“Person”** means an individual, a partnership, a limited liability company, a joint venture, a corporation, a trust, an unincorporated organization, a division or operating group of any of the foregoing, a government or any department or agency thereof, or any other legal entity.
 
-### <a name="grace"></a>[](grace)Grace Period
+   **“Power of Authority”** documented authorization by Customer to Encirca giving Encirca the authority to act on its behalf in relation to any Services listed herein or provided in an Order Statement.
 
-You agree that we may, at EnCirca’s sole discretion, allow you to renew your domain name after its expiration date has passed. Transfer of your domain following the expiration date is not permitted. You agree that after the expiration date of your domain name registration and before it is deleted or renewed, we may direct your domain name to an IP address designated by us, including, without limitation, to an IP address which hosts a parking, under construction or other temporary page that may include promotions and advertisements for, and links to, EnCirca’s Web site, EnCirca product and service offerings, third-party Web sites, third-party product and service offerings, and/or Internet search engines, and you agree that we may place our contact information in the WHOIS output for the expired domain name.
+   **“Purpose”** means the relationship between the Parties and the objectives of the Customer in relation to the Services provided through this Agreement or any Order Statement.
 
-###<a name="expiration"></a> [](expiration)Expiration Policy
+   **“Data Report”** means the data created by and through the Encirca Platform or reports in relation to the provision of Services under the Agreement and any Order Statement.  The terms of the Data Report are incorporated by reference into the Agreement.
 
-[Expiration Policy](https://www.encirca.com/legal/expiration/)
+   **“Services”** means all services to be performed and delivered by Encirca under the Agreement or in any Order Statement.
 
-### <a name="restore"></a> [](restore)Restore Policy
+   **“Source Materials”** means the source code, executable code, software build process documentation and database scheme, coding guide and standards, other technical documents relating to the software, enhancements and such other text files in such form that they can be compiled or interpreted into object code together with all technical information and documentation which will allow the use, reproduction, modification and enhancement of the software comprising the Encirca Platform, including information generated from the Encirca Platform through public source and clustering technology which enables the software to function and produce output.
 
-[Restore Policy, Accuracy and Form](https://www.encirca.com/restore/)
+   **“Order Statement”** means Encirca’s statements, information, and terms provided in the order specifying the Services to be provided to Customer.  The terms of the Order Statement will be provided at the time that Customer purchases the Services through the Encirca Platform or by other means specified by Encirca.  The terms of the Order Statement are incorporated by reference into the Agreement.
 
-### <a name="autorenew"></a>[](autorenew)Autorenewal Policy
+   **“Subscription”** means set term offering of the Service, specified in any Order Statement.
+2. <ins>License to the Encirca Platform
 
-[Autorenewal Policy for Domains and Services](https://www.encirca.com/legal/autorenew/)
+   (a)	Encirca grants to the Customer for the term of the Agreement a non-exclusive, non- transferable, non-sublicensable and worldwide license to access and use the Encirca Platform, for the Customer’s own business purposes.
 
-### <a name="currency"></a>[](currency)Currency Conversion
+   (b)	During the Term, the Customer may, without additional license, permit the Authorized Persons to have access to, and use the Encirca Platform for the Customer’s own business purposes in the manner contemplated by the Agreement, and any Order Statement.
 
-While all transactions are processed in U.S. dollars, EnCirca may provide an estimated conversion price to currencies other than U.S. dollars. You acknowledge and agree that the pricing displayed during the checkout process is an estimated conversion price at the time of purchase. Due to time differences between (i) the time you complete the checkout process, (ii) the time the transaction is processed, and (iii) the time the transaction posts to your bank statement, the conversion rates may fluctuate, and EnCirca makes no representations or warranties that the estimated conversion price will be the same as, or reflective of, either (a) the amount processed or (b) the amount posted to your bank statement, and you agree to waive any and all claims based upon such discrepancies (including any and all claims for a refund based on the foregoing). In addition, you acknowledge and agree that you may be charged exchange rate conversion fees.
+3. <ins>Access to the Encirca Platform</ins>: 
 
-### <a name="tax"></a> [](tax)Tax Obligations
+   (a)	Customer shall not permit any third party (not an Authorized Person) to use the Services or Encirca Platform without the prior written consent of Encirca.
 
-EnCirca assumes your purchase qualifies as a non-taxable transaction based on your legal status or country of residence.
+4. <ins>Intellectual Property Rights and Ownership of Customer Data or Reports</ins>
 
-### <a name="term"></a>[](term)Term of Agreement
+   (a)	All Intellectual Property Rights in the Encirca Platfom(s) (except in the Customer Data provided by the Customer), the Source Materials and the Enhancements shall remain vested in Encirca and no Intellectual Property Rights are assigned or otherwise transferred to the Customer.
 
-The term of this agreement shall continue in full force and effect as long as you have any domain name registered through EnCirca. You agree that you will not transfer any domain name registered through EnCirca to another domain name registrar during the first sixty (60) days from its initial registration date or during the first sixty (60) days from the effective date of a Registrar Transfer to EnCirca.
+   (b)	All Intellectual Property Rights in and to all Services, additions, developments, enhancements and improvements (except the Customer Data) created, produced or carried out by the Customer shall be vested solely in Encirca or the third parties from whom Encirca has obtained the right to use the Encirca Platform.
 
-### <a name="modifications"></a>[](modifications)Modifications
+   (c)	Encirca warrants that it has the full legal right to license the data on the Encirca Platform and that the use of Encirca Platform by the Customer or Encirca under the Agreement does not infringe on the Intellectual Property Rights of any third party.
 
-You agree that EnCirca may modify this agreement from time to time. EnCirca may also discontinue services it provides under this agreement. You agree to be bound by any changes EnCirca may reasonably make to this agreement when such changes become effective. Should you elect to cancel your agreement with EnCirca you will not receive a refund for any fees you may have paid to EnCirca.
+   (d)	Customer shall retain title to any Customer Data delivered by Customer to Encirca as part of the Services and Customer tailored Reports, but not including public domain or Encirca licensed information provided therein.
 
-You agree that EnCirca shall not be bound by any representations made by third parties who you may use to purchase services from EnCirca, and that any statements of a general nature, which may be posted on EnCirca’s web site or be contained in EnCirca’s promotional materials, will not bind EnCirca.
+   (e)	The Customer warrants that no provided Customer Data infringes on any Intellectual Property Rights of any third party.
 
-### <a name="uptodate"></a>[](uptodate)Up to Date Information
+5. <ins>Services and Terms of Subscriptions</ins>: Encirca will provide the Customer with the Services, as described in the Order Statement.
 
-You agree to provide EnCirca with accurate and reliable contact details upon registration and during the term of the domain registration.
+   (a)	**Term of Purchased Subscriptions**: Except as otherwise specified, Subscriptions will automatically renew for additional periods of length noticed to Customer at the time of purchase.
 
-This information includes:
+   (b)	**Support Services**: The Services and Encirca Platform are provided as-is.  Encirca shall not be required to provide Customer with the support services.
 
-* Your full name, postal address, e-mail address, voice telephone number, and fax number if available. You must also provide the name of an authorized person for contact purposes in the case of an Registered Name Holder that is an organization, association, or corporation.
-* The names of the primary nameserver and secondary nameserver(s) for the Registered Name;
-* The name, postal address, e-mail address, voice telephone number, and (where available) fax number of the technical contact for the Registered Name; and
-* The name, postal address, e-mail address, voice telephone number, and (where available) fax number of the administrative contact for the Registered Name.
+6. <ins>Financial and Payment Terms</ins>: Fees, Invoicing, and Payment. Customer acknowledges and agrees that this Agreement will dictate all payment terms.
 
-Further, you agree to notify EnCirca within seven (7) business days when any of the information you provided as part of the application and/or registration process changes. It is your responsibility to keep this information in a current and accurate status. Failure by you, for whatever reason, to provide EnCirca with accurate and reliable information on an initial and continual basis, shall be considered to be a material breach of this agreement. Failure by you, for whatever reason, to respond within fifteen (15) business days to any inquiries made by EnCirca to determine the validity of information provided by you, shall also be considered to be a material breach of this agreement, and can be a basis for suspension and/or cancellation of the domain registration.
+   (a)	Customer will pay all fees specified in the respective Order Statement prior to the provisioning of the Services. Except as otherwise specified herein or in an Order Statement, (i) fees are based on Services and Subscriptions purchased and not actual usage, (ii) payment obligations are non-cancellable and fees paid are non-refundable, and (iii) quantities purchased cannot be decreased during the relevant Subscription term.
 
-You agree that for each domain name registered by you the following information will be made publicly available in the Whois directory as determined by ICANN or Registry Policy and may be sold in bulk as set forth in the applicable ICANN or Registry agreements:
+   (b)	Except as expressly provided in the applicable Order Statement, renewal pricing will be based upon the applicable Encirca list price (at the time of renewal). Any change to pricing will be communicated to the client in advance of price changes or renewal.
 
-* The domain name
-* Your name and postal address
-* The email address, postal address, voice and fax numbers for technical and administrative contacts
-* The Internet protocol numbers for the primary and secondary name servers
-* The corresponding names of the name servers
-* The original date of registration and expiration date
+   (c)	Encirca shall receive payment by credit card from Customer through the Encirca Platform in accordance with the relevant Order Statement. 
 
-### <a name="use"></a>[](use)Use of Information
+   (d)	Customer is responsible for providing complete and accurate billing and contact information to Encirca and notifying Encirca of any changes to such information.
 
-You agree that, to the extent permitted by ICANN and/or the applicable Registry, EnCirca may make use of the publicly available information you provided during the registration and renewal processes. EnCirca may also communicate with you regarding any other transaction involving your domain or any ICANN-mandated policy, including Whois Data reminders.
+   (e)	All payments under the Agreement shall be made in currency reflected on as agreed to by the Parties through an Order Statement.
 
-You agree that EnCirca may send you marketing offers and communications from time-to-time via email, telephone, fax or your postal address. You are free to opt-out of these communications at any time.
+   (f)	All fees set forth in the Agreement are exclusive of applicable taxes and duties, including any taxes or VAT and/or applicable sales or use tax. The Customer will provide Encirca with any information Encirca may reasonably request in order to determine whether Encirca is obligated to collect VAT, sales or use tax from the Customer, including the Customer’s VAT or taxpayer identification number, as well as tax exemption	certificate or comparable documents, if applicable.
 
-If you engage in the reselling of domain names you agree to provide any individuals whose personal information you’ve obtained, information about the possible uses of their personal information pursuant to ICANN and/or the applicable Registry policy. You also agree to obtain consent, and evidence of consent, from those individuals for such use of the personal information they provide.
+7. <ins>Indemnity</ins>: Subject to the limitations of liability set out in Clause 8, each Party agrees to indemnify and defend the other Party from and against all claims, actions, proceedings, costs (including reasonable legal fees) expenses, losses, damages (other than consequential damages) and liabilities arising from the Party’s material breach of its obligations under this Agreement.
 
-Any Registrant that intends to license use of a domain name to a third party is nonetheless the Registrant of record and is responsible for providing its own full contact information and for providing and updating accurate technical and administrative contact information adequate to facilitate timely resolution of any problems that arise in connection with the Registered name. A Registrant licensing use of a Registered name according to this provision shall accept liability for harm caused by wrongful use of the Registered Name, unless it discloses the current contact information provided by the licensee and the identity of the licensee within seven (7) days to a party providing the Registrant reasonable evidence of actionable harm
+   (a)	Encirca agrees to indemnify the Customer from and against all claims, actions, proceedings, costs (including reasonable legal fees), expenses, losses, damages (other than consequential damages) and liabilities arising from any claim by a third party that the use of the Services under the Agreement infringes such third party’s Intellectual Property Rights.
 
-### <a name="whoisprivacy"></a>[](whoisprivacy)Whois Privacy Service Policy
+   (b)	The Customer agrees to indemnify and defend Encirca from and against all claims, actions, proceedings, costs (including reasonable legal fees), expenses, losses, damages (other than consequential damages) and liabilities arising from any claim by a third party that: (1) Customer Data violates any civil or criminal law or regulation, or infringes such third party’s Intellectual Property Rights; (2) damages or claims resulting from Encirca reporting or taking actions instructed by the Customer, and/or under its authorization; (3) when Customer independently uses data from the Encirca Platform or Data Report and/or takes action independently.
 
-[EnCirca’s Whois Privacy Service Information](https://www.encirca.com/legal/whois-privacy-legal-terms/)
+8. <ins>Liability</ins>: Except in relation to its liability arising from Clauses 7 (Indemnity) and in relation to any subpoenas, legal orders, demands or requests for information, Encirca’s aggregate liability under the Agreement shall under no circumstances exceed the payments to which Encirca would be entitled to receive from the Customer in the most recent calendar year.
 
-### <a name="agents"></a> [](agents)Agents
+   (a)	Encirca will not accept any liability for infringing matter not found by Encirca’s search engine, the Encirca Platform, or personnel.
 
-You explicitly authorize us to act as your “Designated Agent” (as defined in ICANN’s  transfer policy ) to approve each “Change of Registrant” (as defined in ICANN’s  [transfer policy](https://www.icann.org/resources/pages/transfer-policy-2016-06-01-en) ) on your behalf.
+   (b)	Customer acknowledges that Encirca acts under the authorization and instructions of the Customer in the creation, production and action taken on behalf of the Customer in relation to its Services provided under this Agreement. 
 
-You agree that, if you are registering a domain name for or on behalf of someone else, you represent that you have the authority to nonetheless bind that person as a principal to all terms and conditions provided herein. You agree that if you license the use of the domain name registered to you to a third party, you nonetheless remain the domain name holder of record, and remain responsible for all obligations under this Agreement, including but not limited to payment obligations, and providing (and updating, as necessary) both your own full and accurate contact information, and accurate technical, administrative, billing and zone contact information adequate to facilitate timely resolution of any problems that arise in connection with the domain name and domain name registration and for ensuring non-infringement of any third party intellectual property rights or other rights.
+   (c)	Encirca is not responsible for third party claims resulting from or related to the instructed actions or Services provided.
 
-### <a name="dispute"></a> [](dispute)Dispute Resolution
+   (d)	Customer acknowledges and agrees that the performance of the Services is dependent on the timely completion of the Customer’s responsibilities and obligations under this Agreement. Customer will be responsible for: (i) the timely preparation, delivery, accuracy and completeness of all required information provided to Encirca or inputted into the Encirca Platform in connection with the Services, and (ii) the consequences and accuracy of any instructions Customer may give to Encirca.
 
-You agree to be bound by EnCirca’s current Dispute Resolution Policy ( [ here](/legal/udrp/) ) as well as any dispute policies in effect for the respective top level domains. This policy is incorporated herein and made a part of this agreement. The current dispute policy can be found at: http://www.encirca.com/legal/udrp/.
+   (e)	Encirca’s liability for errors or faults in or in relation to the Encirca Platform or anything on the Encirca Platform does further not include faults or errors caused by circumstances beyond Encirca’s reasonable control.
 
-You agree that EnCirca may from time to time modify its Dispute Resolution Policy. EnCirca will post any changes to its Dispute Resolution Policy at least 30 days before they become effective. You agree that by maintaining your domain name registrations with EnCirca after the updated policy becomes effective that you agree to the Dispute Resolution policy as amended. You agree to review EnCirca’s web site periodically to determine if changes have been made to the Dispute Resolution Policy. If you cancel your agreement with EnCirca as a result of the modified Dispute Resolution policy no fees will be refunded to you.
+   (f)	Information retrieved by Customer from Encirca via the Encirca Platform (or in any other manner connection with Services) is not legal opinion and shall not be used or construed to be a legal advice for any purpose (including, as a final determination as whether a trademark is available for use or may be registered). Encirca is not a law firm and is not engaged in rendering legal services. It is the responsibility of the Customer to obtain necessary legal counsel on any information retrieved from the Encirca Platformor in connection with the provision of the Service(s).
 
-You agree that if a dispute arises as a result of one or more domain names you have registered using EnCirca, you will indemnify, defend and hold EnCirca harmless as provided for in this agreement. You also agree that if EnCirca is notified that a complaint has been filed with a governmental, administrative or judicial body, regarding a domain name registered by you using EnCirca, that EnCirca, in its sole discretion, may take whatever action EnCirca deems necessary regarding further modification, assignment of and/or control of the domain name deemed necessary to comply with the actions or requirements of the governmental, administrative or judicial body until such time as the dispute is settled. In this event you agree to hold EnCirca harmless for any action taken by EnCirca.
+   (g)	**No Warranty**: Encirca makes no guaranties, representations or warranties as to the full availability, accuracy or completeness of contents or results of the Services and expressly disclaim the full availability, accuracy, comprehensiveness, currency, or suitability of purpose of any of the information retrieved from the system or Services. Encirca cannot and does not accept any liability for any unavailability of the information in third party databases or for errors or omissions in the information provided by third party information providers, nor does Encirca accept any liability with respect to the disclosure or use of information or records that may contain personally identifiable information. 
 
-### <a name="transfer"></a> [](transfer)Transfer of Domain Names
+9. <ins>Term and Termination</ins>: 
 
-If you transfer any domain name you agree to provide the information required by, and to abide by, the procedures and conditions set forth in our Domain Transfer Agreement. You may view the current version of our Domain Transfer Agreement at: [http://www.encirca.com/legal/transfer](/legal/transfer-terms/)
+   (a)	This Agreement commences on the date that Encirca provides the Services to Customer. It shall continue until all Subscriptions have expired or have been terminated.
 
-### <a name="resale"></a>[](resale)Resale Practices
+   (b)	The term of each Subscription will automatically renew for additional periods equal to the expiring Subscription term or one year (whichever is longer), unless either Party gives the other written notice (email acceptable) at least sixty (60) days before the end of the relevant, current Subscription term.
 
-You agree to inform any customer of yours, who may be acquiring a domain name through you using EnCirca’s registration services, that they are in fact registering their domain name through EnCirca and that EnCirca is an accredited registrar with ICANN and/or the applicable Registry. You agree not to represent that you are an ICANN and/or the applicable Registry accredited registrar or that you are in any way providing superior access to the applicable Domain Name Registry. You also agree not to use the ICANN trademark logo in any of your promotional materials including your web site.
+   (c)	Either Party may terminate this Agreement for cause: (i) upon 30 days written notice to the other party of a material breach if such breach remains uncured at the expiration of such 30 day period, or (ii) if the other party becomes the subject of a petition of bankruptcy or any other proceeding relating to insolvency, receivership, liquidation or assignment for the benefit of creditors.
 
-You agree to obtain each of your customers’ acceptances of EnCirca’s then current Domain Registration Agreement, and to retain evidence of their acceptance for a period of not less than three (3) years. Should you require that your customer’s accept additional terms and conditions that are not required by EnCirca, you agree that such additional terms and conditions shall not conflict with EnCirca’s Domain Registration Agreement and the policies and business procedures adopted by ICANN and/or the applicable Registry.
+   (d)	If Encirca terminates this Agreement without cause prior to the end of any Term, Customer shall be limited to a refund on the following terms: (i)	If the first Data Report of the then-current Term has already been provided, Customer shall receive a 5% refund from the fees paid for the then-current Term for each Data Report not provided during the then-current Term.
 
-You agree that EnCirca is not lending You access to its registrar connections or its registry access, nor will You be deemed to be a registrar in Your own right. Furthermore, You agree You will not attempt to gain access to EnCirca’s registrar connections or registry access. You agree to provide complete, accurate and current data for each registrant to be added to a registry in accordance with ICANN and/or the applicable Registry requirements for inclusion in the Whois database.
+   (e)	Termination does not relieve Customer of its obligation to pay fees payable to Encirca prior to the effective date of termination.
 
-You agree to provide your customers with adequate customer support, and to maintain contact with them with regard to providing a medium for them to communicate changes in the information they provided as part of the domain name registration process. Upon receiving corrected or updated information you will, within 5 business days, provide such information to EnCirca so EnCirca may update its registration records. You will retain copies of all communications between you and your customers and will upon request provide EnCirca copies of same.
+   (f)	Upon termination of the Agreement howsoever arising, (i)	the following Clauses shall survive the expiration or termination (howsoever arising) of the Agreement: Licenses, Intellectual Property Rights and ownership; Financial and payment terms, with respect to any payments owed to Encirca or any refunds or credits owed to the Customer, Indemnity, Consequences of termination, Subpoenas, Legal Orders, Demands or Requests for Information, Notices, Entire Agreement, Severability, Governing Law and Disputes.
 
-### <a name="privacy"></a>[](privacy)EnCirca Privacy and Security
+10. <ins>Force Majeure</ins>: Encirca shall not be liable for any delay or failure to carry out its obligations under the Agreement caused by Force Majeure, provided that it promptly gives written notice of the occurrence of the Force Majeure relied on to the Customer and it uses all reasonable endeavors to remove or avoid such Force Majeure as promptly as practicable. 
 
-[Privacy and security terms can be found here.](https://www.encirca.com/legal/privacy/)
+11. <ins> Subpoenas, legal orders, demands or requests for information</ins>: If Encirca receives a valid search warrant, subpoena, legal order, demand or other request for information regarding the Customer Data or Reports, from any government entity or court with proper jurisdiction over Encirca, Encirca shall, to the extent permitted by applicable law:
 
-### <a name="suspension"></a> [](suspension)Suspension of Services
+    (a)	immediately notify the Customer of such request;
 
-You agree that, in addition to other events set forth in this agreement, your ability to use any of the services provided by EnCirca is subject to cancellation or suspension in the event there is an unresolved breach of this agreement and/or suspension or cancellation is required by any policy now in effect or adopted later by ICANN and/or the applicable Registry.
+    (b)	consult with the Customer regarding Encirca’s response;
 
-### <a name="breach"></a>[](breach)Breach of Agreement
+    (c)	cooperate with the Customer’s reasonable requests in connection with efforts by the Customer to intervene and quash or modify the request; and
 
-You agree that your failure to comply completely with the terms and conditions of this agreement and any EnCirca rule or policy may be considered by EnCirca to be a material breach of this agreement and that EnCirca may provide you with notice of such breach either in writing or electronically (i.e. email). In the event you do not provide EnCirca with material evidence that you have not breached your obligations to EnCirca within ten (10) business days, EnCirca may terminate its relationship with you and take any remedial action available to EnCirca under the applicable laws. Such remedial action may be implemented without notice to you and may include, but is not limited to, canceling the registration of any of your domain names and discontinuing any services provided by EnCirca to you. No fees will be refunded to you should your agreement be cancelled or services be discontinued because of a breach. EnCirca’s failure to act upon or notify you of any event, which may constitute a breach, shall not relieve you from or excuse you of the fact that you have committed a breach.
+    (d)	upon the Customer’s request, provide the Customer with a copy of Encirca’s response
 
-### <a name="restriction"></a>[](restriction)Restriction of Services
+    (e)	Encirca shall comply with any such request, unless such request has been quashed, withdrawn or modified. The Customer shall reimburse Encirca for Encirca’s actual costs of complying with any request, including Encirca’s legal fees, provided such request relates to the Customer’s actions or a lawsuit involving the Customer or any of its clients.
 
-You agree not to use the services provided by EnCirca, or to allow or enable others, to use the services provided by EnCirca for the purposes of: The transmission of unsolicited email (SPAM) Repetitive, high volume inquires into any of the services provided by EnCirca (i.e. domain name availability, etc.).
+12. <ins> Notice</ins>: Any notice under the Agreement will be in writing in the name or on behalf of the Party giving it. Notices may be sent byregistered mail, marked for the attention of authorized representative of the Customer and, in the case of Encirca, for the attention of the Chief Executive Officer of Encirca, Inc., or to such other address as such Party may specify to the other Party in writing from time to time.
 
-### <a name="refusal"></a>[](refusal)Right of Refusal
+13. <ins> Entire Agreement</ins>: The Agreement and the Order Statement, with any Addendums or Schedules thereof, sets out the entire Agreement and understanding between the Parties and supersedes any previous Agreement between the Parties relating to its subject matter. Unless otherwise expressly agreed in writing, the Agreement applies in place of and prevails over any terms or conditions contained in or referred to in correspondence or elsewhere, or implied by trade, custom or course of dealing.
 
-You agree that EnCirca, in its sole discretion and without liability to you, may refuse to accept the registration of any domain name. EnCirca also may in its sole discretion and without liability to you delete the registration of any domain name during the first thirty (30) days after registration has taken place. EnCirca may also cancel the registration of a domain name, after thirty (30) days, if that name is being used in association with spam or morally objectionable activities. Morally objectionable activities will include, but not be limited to: activities designed to defame, embarrass, harm, abuse, threaten, slander or harass third parties; activities prohibited by the laws of the United States and/or foreign territories in which You conduct business; activities designed to encourage unlawful behavior by others, such as hate crimes, terrorism and child pornography; activities that are tortious, vulgar, obscene, invasive of the privacy of a third party, racially, ethnically, or otherwise objectionable; activities designed to impersonate the identity of a third party; and activities designed to harm minors in any way. In the event EnCirca refuses a registration or deletes an existing registration during the first thirty (30) days after registration, you will receive a refund of any fees paid to EnCirca in connection with the registration either being canceled or refused. In the event EnCirca deletes the registration of a domain name being used in association with spam or morally objectionable activities, no refund will be issued.
+14. <ins> Severability</ins>: Any term or provision of the Agreement that is invalid or unenforceable in any situation in any jurisdiction shall not affect the validity or enforceability of the remaining terms and provisions hereof or the validity or enforceability of the offending term or provision in any other situation or in any other jurisdiction.
 
-### <a name="liability"></a>[](liability)Limitation of Liability
+15. <ins> Waivers</ins>: No failure or delay by a Party in exercising its rights or remedies shall operate as a waiver unless made by specific written notice. No waiver by a Party of any default, misrepresentation, or breach of warranty or covenant hereunder, whether intentional or not, shall be deemed to extend to any prior or subsequent default, misrepresentation, or breach of warranty or covenant hereunder or affect in any way any rights arising by virtue of any prior or subsequent such occurrence. No single or partial exercise of any right or remedy of a Party shall operate as a waiver or preclude any other or further exercise of that or any other right or remedy.
 
-You agree that EnCirca’s entire liability to you under this agreement, and your only remedy, in connection with any service provided by EnCirca to you under this agreement, and for any breach of this agreement by EnCirca, shall be limited to the fees you paid to EnCirca for the particular service in contention.
+16. <ins>Independent contractors</ins>: The Parties are independent contractors and nothing in the Agreement shall constitute or be deemed to constitute a partnership, joint venture or agency between the Parties; as such neither Party shall have any authority or power to bind, contract in the name of or create a liability for or against the other.
 
-ENCIRCA AND ITS AGENTS AND CONTRACTORS SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM THE USE OR INABILITY TO USE ANY OF ENCIRCA’S SERVICES OR FOR THE COST OF OBTAINING SUBSTITUTE SERVICES. BECAUSE CERTAIN STATES DO NOT PERMIT THE LIMITATION OF ELIMINATION OF LIABILITY FOR CERTAIN TYPES OF DAMAGES, ENCIRCA’S LIABILITY SHALL BE LIMITED TO THE SMALLEST AMOUNT PERMITTED BY LAW.
+17. <ins>Assignment</ins>: Neither Party may assign or transfer any of its rights or obligations under the Agreement or otherwise dispose of the Agreement without the prior written consent of the other Party, except as otherwise provided for in the Agreement, and to not be unreasonably withheld. Notwithstanding the above, Customer shall be entitled to assign or transfer the Agreement to one of its Affiliates, and Encirca shall be entitled to assign or transfer the Agreement in connection with a change of control, merger, or sale of all or substantially all of its assets related to the Altroots Services.
 
-ENCIRCA DISCLAIMS ANY LOSS OR LIABILITY RESULTING FROM:
+18. <ins>Export Compliance</ins>: The Services, other Encirca technology, and derivatives thereof may be subject to export laws and regulations of the United States and other relevant jurisdictions. Encirca and Customer each represents that it is not named on any U.S. government denied-party list. Customer will not permit any Authorized Person or user of the Services to access or use any Service or Content in a U.S.- embargoed country or region (currently Cuba, Iran, North Korea, Sudan, Syria or Crimea) or in violation of any U.S. export law or regulation.
 
-* access delays or interruptions to our web site or domain name registration system
-* data non-delivery or misdelivery between you and EnCirca
-* events beyond our control (i.e. acts of God)
-* the loss of registration or processing of a domain name or the use of a domain name
-* the failure for whatever reason to renew a domain name registration
-* the unauthorized use of your account with EnCirca or any of the services provided to you by EnCirca
-* errors, omissions or misstatements
-* deletion of, failure to store, or failure to process or act upon email messages
-* processing of updated information to your registration record
-* development or interruption of your web site
-* errors taking place with regard to the processing of your application
-* application of EnCirca’s Dispute Resolution Policy
-* any act or omission caused by you or your agent (whether authorized by you or not)
+19. <ins> Governing Law and Disputes</ins>: The Agreement shall be governed by and interpreted in accordance with the laws of Massachusetts.
 
-### <a name="indemnity"></a>[](indemnity)Indemnity
+    (a)	Any controversy or claim arising out of or relating to this Agreement, or the breach thereof, shall be settled by joint consultation. If joint consultation does not lead to a resolution, the dispute will be submitted to the responsible persons in the managerial boards of both parties.
 
-You agree to release, defend, indemnify and hold harmless EnCirca and its contractors, agents, employees, offices, directors, shareholders and affiliates from and against any losses, damages or costs, including reasonable attorney’s fees, resulting from any claim, action, proceeding suit or demand arising out of or related to your (including your agents, affiliates or anyone using your account with EnCirca whether or not on your behalf, and whether or not with your permission) use of the services provided by EnCirca. Should EnCirca be notified of a pending law suit, or receive notice of the filing of a law suit, EnCirca may seek a written confirmation from you concerning your obligation to indemnify EnCirca. Your failure to provide such a confirmation may be considered a breach of this agreement.
-
-### <a name="representation"></a>[](representation)Representation and Warranties
-
-You warrant that all information provided by you as part of the registration process is complete and accurate. You also warrant that each registration you make is being done so in good faith and that you have no knowledge of it infringing upon or conflicting with the legal rights of a third party or a third party’s registration, trademark or trade name. You also warrant that the domain name being registered will not be used in connection with any illegal activity.
-
-You agree that EnCirca makes no representations or warranties or any kind in connection with this agreement and specifically makes no guaranty to you against the possibility of objection to, or challenge of, the registration or use of any domain name you register with EnCirca.
-
-EnCirca expressly reserves the right to deny, cancel or transfer any registration that it deems necessary, in its discretion, pursuant to any Registrar or Registry adopted policy, to correct mistakes by EnCirca or the applicable Registry in registering the name or, to protect the integrity and stability of the registry, to comply with any applicable national, state or local laws, government rules or requirements, regulation or court orders, requests of law enforcement, in compliance with any dispute resolution process, or to avoid any liability, civil or criminal, on the part of EnCirca, as well as its affiliates, subsidiaries, officers, directors and employees. EnCirca also reserves the right to freeze a domain name during resolution of a dispute.
-
-### <a name="warranties"></a>[](warranties)Disclaimer of Warranties
-
-WE EXPRESSLY DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. WE MAKE NO WARRANTY THAT OUR SERVICE(S) WILL MEET YOUR REQUIREMENTS, OR THAT THE SERVICE(S) WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR FREE, OR THAT DEFECTS WILL BE CORRECTED. WE DO NOT WARRANT, NOR MAKE ANY REPRESENTATIONS REGARDING THE USE, OR RESULTS OF, ANY OF THE SERVICES WE PROVIDE, IN TERMS OF THEIR CORRECTNESS, ACCURACY, RELIABILITY, OR OTHERWISE.
-
-### <a name="severability"></a>[](severability)Severability Entirety
-
-You agree that the terms of this agreement are severable. If any part of this agreement is determined to be unenforceable or invalid, that part of the agreement will be interpreted in accordance with applicable law as closely as possible, in line with the original intention of both parties of the agreement. The remaining terms and conditions of the agreement will remain in full force and effect.
-
-You agree that this agreement including the policies it refers to (i.e. our Dispute Resolution Policy, etc.) constitute the complete and only agreement between you and EnCirca regarding the services contemplated herein.
-
-### <a name="venue"></a>[](venue)Venue
-
-THIS AGREEMENT SHALL BE DEEMED ENTERED INTO IN THE STATE OF MASSACHUSETTS. EXCEPT FOR DISPUTES CONCERNING THE USE OF A DOMAIN NAME REGISTERED WITH ENCIRCA, THE LAWS AND JUDICIAL DECISIONS OF MIDDLESEX COUNTY, MASSACHUSETTS, SHALL BE USED TO DETERMINE THE VALIDITY, CONSTRUCTION, INTERPRETATION AND LEGAL EFFECT OF THIS AGREEMENT. YOU AGREE THAT ANY ACTION RELATING TO OR ARISING OUT OF THIS AGREEMENT, SHALL BE BROUGHT IN THE COURTS OF MIDDLESEX COUNTY, MASSACHUSETTS.
-
-FOR THE ADJUDICATION OF DISPUTES CONCERNING OR ARISING FROM USE OF THE REGISTERED NAME, THE REGISTERED NAME HOLDER SHALL SUBMIT, WITHOUT PREJUDICE TO OTHER POTENTIALLY APPLICABLE JURISIDICTIONS, TO THE JURISDICTION OF THE COURTS (1) OF THE REGISTERED NAME HOLDER’S DOMICILE AND (2) THE U.S. DISTRICT COURT FOR THE DISTRICT OF MASSACHUSETTS, LOCATED IN BOSTON, MASSACHUSETTS, USA.
-
-### <a name="waiver"></a>[](waiver)Waiver of Trial by Jury
-
-YOU AGREE TO WAIVE THE RIGHT TO TRIAL BY JURY IN ANY PROCEEDING THAT TAKES PLACE RELATING TO OR ARISING OUT OF THIS AGREEMENT.
-
-### <a name="notices"></a> [](notices)Notices
-
-You agree that all notices (except for notices concerning breach of this agreement) from EnCirca to you may be posted on our web site and will be deemed delivered within thirty (30) days after posting. Notices concerning breach will be sent either to the email address you have on file with EnCirca or mailed first class postage to the postal address you have on file with EnCirca. In both cases, delivery shall be deemed to have been made five (5) days after the date sent.
-
-Notices from you to EnCirca shall be made either by email, sent to the address we provide on our web site, or first class mail to our address at:
-
-EnCirca, Inc.\
-400 West Cummings Park\
-Suite 1725\
-Woburn, MA. USA 01801
-
-Delivery shall be deemed to have been made by you to EnCirca five (5) days after the date sent.
+    (b)	Any dispute, controversy or claim arising out of, relating to or in connection with this contract, including the breach, termination, or validity thereof, shall be resolved by final and binding arbitration.   The arbitral tribunal shall have the sole power to rule on any challenge to its own jurisdiction and all issues regarding arbitrability shall be decided solely by the arbitral tribunal.  The place of arbitration shall be Boston, Massachusetts.  The language of the arbitration shall be English.  The tribunal shall consist of one arbitrator.  The parties agree to keep confidential the existence of the arbitration, the arbitral proceedings, the submissions made by the parties and the decisions made by the arbitral tribunal, including its awards to the extent not already in the public domain, except in judicial proceedings related to the award or where required by applicable law.  The tribunal shall decide the procedures to be followed in the arbitration after consultation with the parties.  The tribunal may make its decisions by a majority or by the chair if no majority is possible.   The tribunal shall have the power to grant any provisional or final remedy or relief that it deems appropriate, including conservatory measures and an award of attorneys’ fees.
