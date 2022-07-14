@@ -32,7 +32,7 @@ const Watch = ({ data }) => {
         <div id="altroots-right">
           <h3>To order your exacts-only watch, please complete the form below.</h3>
           <Checkout />
-          <p>Altroots is a service of EnCirca, Inc. EnCirca was founded in 2001 in Boston, Massachusetts and is an ICANN-Accredited domain name registrar. EnCirca is a leader in brand protection for both Web2 and Web3 domain names. EnCirca’s founder previously led development for the leading Web2 trademark research platform. For more information, please visit EnCirca online</p>
+          <p>Altroots is a service of EnCirca, Inc. EnCirca was founded in 2001 in Boston, Massachusetts and is an ICANN-Accredited domain name registrar. EnCirca is a leader in brand protection for both Web2 and Web3 domain names. For more information, please visit EnCirca online</p>
         </div>
       </div>
       <Footer />
