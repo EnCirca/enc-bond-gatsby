@@ -8,8 +8,7 @@ const Checkout = () => {
   const handleSubmit = async event => {
     event.preventDefault()
     setLoading(true)
-    let canSubmit = true;
-    
+    let canSubmit = true
     const watchInput = document.getElementById('watch-term-input')
     const watchInputError = document.getElementById('watch-term-input-error')
     const custEmailInput = document.getElementById('cust-email-input')
@@ -32,25 +31,25 @@ const Checkout = () => {
     termsCheckError.style.display = 'none'
 
     if (watchInput.value.length === 0) { 
-      watchInput.style.borderColor = 'red';
-      watchInput.style.borderWidth = '3px';
-      watchInputError.style.display = 'block';
+      watchInput.style.borderColor = 'red'
+      watchInput.style.borderWidth = '3px'
+      watchInputError.style.display = 'block'
       canSubmit = false;
       setLoading(false);
     }
 
     if (custEmailInput.value.length === 0) { 
-      custEmailInput.style.borderColor = 'red';
-      custEmailInput.style.borderWidth = '3px';
-      custEmailInputError.style.display = 'block';
+      custEmailInput.style.borderColor = 'red'
+      custEmailInput.style.borderWidth = '3px'
+      custEmailInputError.style.display = 'block'
       canSubmit = false;
       setLoading(false);
     }
 
     if (!termsCheck.checked) {
-      termsCheckError.style.display = 'block';
-      canSubmit = false;
-      setLoading(false);
+      termsCheckError.style.display = 'block'
+      canSubmit = false
+      setLoading(false)
     }
     
     const session = await axios.post(process.env.GATSBY_SESSION_DOMAIN + '/stripeCreateSession', {

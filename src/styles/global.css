@@ -10,17 +10,21 @@ body {
 h1 {
   font-size: 30px;
   line-height: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h2 {
   font-size: 28px;
   line-height: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h3 {
   font-size: 22px;
   line-height: 27px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 main {
   padding-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #gatsby-focus-wrapper footer {
   bottom: 0;
@@ -34,6 +38,7 @@ form.enc-form {
   padding: 30px;
   background-color: #fff;
   box-shadow: 3px 3px 12px #bbb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 form.enc-form div {
   width: 100%;
@@ -49,7 +54,7 @@ form.enc-form div label span {
 form.enc-form div input,
 form.enc-form div select {
   padding: 5px 10px;
-  border: 1px solid #dddddd;
+  border: 1px solid #999;
 }
 form.enc-form div textarea {
   width: 100%;
