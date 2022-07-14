@@ -43,19 +43,18 @@
     color:#333333;
     text-decoration: none;
   }
-  .site-footer .menu {   
-    list-style-type: none;
-    margin:0;
-    padding:0;
-  }
   .site-footer .item {
     padding: 1em;
+    flex-basis:90px;
   }
   .site-footer .menu {
       display: flex;
-      justify-content: center;
-      align-items: flex-start;     
+      flex-wrap:wrap;
+      justify-content: center;   
       background: none;
+      list-style-type: none;
+      margin:0;
+      padding:0;
   }
   .site-footer nav ul li.logo a {
     padding:.5em .5em;
