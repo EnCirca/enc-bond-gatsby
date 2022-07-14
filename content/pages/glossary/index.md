@@ -26,6 +26,8 @@ If a domain is available, it can be registered on the blockchain. EnCirca can he
 
 **Block**
 
+Some alternative roots have blocked the registration of certain domains such as 1-character strings.
+
 **TLD**
 
 A Top Level Domain (TLD) are domains at the highest level in the hierarchical Domain Name System.  The most popular TLD in Web2 is .com, however, Web3 TLDs can be anything the user wants it to be, such as .AltRoots. The leading platform for alternative top-level domains is Handshake. Others include NexBloc and Decentraweb. These platforms have temporarily reserved trademarks to be claimed only by trademark owners. 
