@@ -14,10 +14,7 @@ date: 2022-07-13T20:36:38.045Z
         </ul>
 <form data-netlify-recaptcha="true" class="enc-form" name="altroots-contact" id="contact" method="POST" data-netlify="true" netlify><h3>EnCirca Altroots Support Form</h3>
             <div>
-                First Name:<br /><input name="first-name" type="text" />
-            </div>
-            <div>
-                Last Name:<br /><input name="last-name" type="text" />
+               Name:<br /><input name="name" type="text" />
             </div>
             <div>
                 Email:<br /><input type="text" name="email" />
