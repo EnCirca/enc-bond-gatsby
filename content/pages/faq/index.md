@@ -6,7 +6,7 @@ date: 2022-07-13T21:21:59.806Z
 ---
 ## **Frequently Asked Questions**
 
-**What is Altroots?**
+**What is AltRoots?**
 
 AltRoots checks a trademark against nearly 8 million blockchain domains across multiple blockchains using advanced trademark research techniques to unearth close similarities that may be used to infringe, defraud or confuse consumers.
 
@@ -25,7 +25,7 @@ There are several alternative roots supporting decentralized domain names. EnCir
 * Ethereum Naming Service’ .ETH TLD (Ethereum blockchain) – 600,000 SLDs
 * Unstoppable Domains’ 9 TLDs (Polygon blockchain) – 2 million SLDs
 
-**What does an Altroots watch cost?**
+**What does an AltRoots watch cost?**
 
 We offer two levels of annual trademark watch subscriptions:  
 
@@ -40,6 +40,6 @@ You can opt to receive a one time report or our annual subscription which will s
 
 Our reporting will scan millions of blockchains for your trademark and inform you of your trademark’s status as either claimable, already registered, or available for registration across the major blockchain alternative roots.  With each result, EnCirca is here to help you take action.
 
-**Who runs Altroots.com?**
+**Who runs AltRoots.com?**
 
-Altroots is a service of EnCirca, Inc. EnCirca was founded in 2001 in Boston, Massachusetts and is an ICANN-Accredited domain name registrar. EnCirca is a leader in brand protection for both Web2 and Web3 domain names. EnCirca’s founder previously led development for the leading Web2 trademark research platform.
+AltRoots is a service of EnCirca, Inc. EnCirca was founded in 2001 in Boston, Massachusetts and is an ICANN-Accredited domain name registrar. EnCirca is a leader in brand protection for both Web2 and Web3 domain names. EnCirca’s founder previously led development for the leading Web2 trademark research platform.
