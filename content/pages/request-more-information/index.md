@@ -6,7 +6,7 @@ date: 2022-07-14T11:54:43.367Z
 ---
 <h2>Request More Information</h2>
 <h3>Sign up for news about updates, webinars and sample reports.</h3>
-<form netlify class="enc-form" name="Request More Information">
+<form netlify class="enc-form" name="Request More Information" data-netlify="true">
     <div>
         <label>
             Name:<br />
