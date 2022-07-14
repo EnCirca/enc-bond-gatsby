@@ -4,7 +4,7 @@
     font-family: 'Nunito Sans', sans-serif;
     font-size: 0.85em;
     font-weight: 300;
-    padding:5em 0 5em 0;
+    padding:30px 0 30px 0;
     margin-top:5em;
 }
 
@@ -20,3 +20,56 @@
     color:#666;
     border-bottom: none;
 }
+
+.site-footer {
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .site-footer nav {
+    background: #FFF;
+    padding: 0 1em;
+  }
+  .site-footer a:link,
+  .site-footer a:visited {
+    font-weight: 700;
+    color:#ED1848;
+    text-decoration: none;
+  }
+  .site-footer a:active,
+  .site-footer a:hover {
+    font-weight: 700;
+    color:#333333;
+    text-decoration: none;
+  }
+  .site-footer .menu {   
+    list-style-type: none;
+    margin:0;
+    padding:0;
+  }
+  .site-footer .item {
+    padding: 1em;
+  }
+  .site-footer .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;     
+      flex-wrap: nowrap;
+      background: none;
+  }
+  .site-footer nav ul li.logo a {
+    padding:.5em .5em;
+    text-align:center;
+  }
+  .site-footer .menu li a {
+    display: block;
+    padding: 0.5em 0.25em;
+  }
+  .site-footer .item {
+      position: relative;
+      display: block; 
+      text-align: center;
+      width: auto;
+  }

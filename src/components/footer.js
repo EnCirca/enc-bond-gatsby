@@ -32,6 +32,16 @@ const Footer = () => {
             <a href={`https://instagram.com/` + siteInfo.social.instagram} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /> </a>
             <a href={`https://github.com/` + siteInfo.social.github} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> </a>
             </div> */}
+            <nav>
+                <ul className={styles.menu}>
+                    <li className={styles.item}><a target="_blank" href="https://www.encirca.com">EnCirca Inc.</a></li>
+                    <li className={styles.item}><a href="/faq">FAQ</a></li>
+                    <li className={styles.item}><a href="/glossary">Glossary</a></li>
+                    <li className={styles.item}><a href="/terms">Terms</a></li>
+                    <li className={styles.item}><a href="/contact">Contact</a></li>
+                    <li className={styles.item}><a href="/request-more-information">More Information</a></li>
+                </ul>
+            </nav>
         </footer>
     )
 }
