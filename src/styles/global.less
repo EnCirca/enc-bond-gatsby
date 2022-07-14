@@ -86,8 +86,17 @@ form.enc-form {
     margin:0 auto 0 auto;
     #altroots-left,
     #altroots-right {
-        flex-basis:45%;
+        flex-basis:40%;
         padding:30px;
-        
+        max-width:800px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #altroots-watch-container {
+        #altroots-left,
+        #altroots-right {
+            flex-basis:100%;
+        }
     }
 }

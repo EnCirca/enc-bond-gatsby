@@ -8,6 +8,7 @@ const Checkout = () => {
   const handleSubmit = async event => {
     event.preventDefault()
     setLoading(true)
+    let canSubmit = true;
     
     const watchInput = document.getElementById('watch-term-input')
     const watchInputError = document.getElementById('watch-term-input-error')
@@ -18,26 +19,30 @@ const Checkout = () => {
     const watchTerms = new FormData(event.target).get("watchTerms")
     const custEmail = new FormData(event.target).get("custEmail")
     const custRef = new FormData(event.target).get("custRef")
-    const watchForm = document.getElementById('watch-single-exact-form')
-    const stripe = await getStripe();
+    const stripe = await getStripe()
 
     if (custRefInput.value.length === 0) { 
       custRefInput.style.borderColor = 'red';
       custRefInput.style.borderWidth = '3px';
       custRefInputError.style.display = 'block';
-      return false
+      canSubmit = false;
+      setLoading(false);
     }
 
     if (watchInput.value.length === 0) { 
       watchInput.style.borderColor = 'red';
       watchInput.style.borderWidth = '3px';
       watchInputError.style.display = 'block';
+      canSubmit = false;
+      setLoading(false);
     }
 
-    if (termsCheck.value === 'false') {
+    if (!termsCheck.checked) {
       termsCheckError.style.display = 'block';
+      canSubmit = false;
+      setLoading(false);
     }
-    console.log(termsCheck.value)
+    
     const session = await axios.post(process.env.GATSBY_SESSION_DOMAIN + '/stripeCreateSession', {
       "success_url": "http://altroots.com/success/",
       "cancel_url": "http://altroots.com/watch/",
@@ -56,12 +61,15 @@ const Checkout = () => {
     .catch(function (error) {
       return error;
     });
-    const { error } = await stripe.redirectToCheckout(session.data)
-
-    if (error) {
-      console.warn("Error:", error)
-      setLoading(false)
+    console.log(canSubmit, 'still false');
+    if(canSubmit) {
+      const { error } = await stripe.redirectToCheckout(session.data)
+      if (error) {
+        console.warn("Error:", error)
+        setLoading(false)
+      }
     }
+
   }
 
   useEffect(() => {
