@@ -26,7 +26,7 @@ const Watch = ({ data }) => {
             <li><strong>Comprehensive close similarities.</strong> Exacts plus close similarities.  Includes an initial history report plus on-going watch notices, sent at least monthly.  First year cost is $2,000.  Renewals will be $500/year.  <small><i>Note:  The exacts-only subscription must be ordered before upgrading to a comprehensive watch subscription.</i></small></li>
           </ol>  
           <p>AltRoots checks a trademark against nearly 8 million blockchain domains across multiple blockchains using advanced trademark research techniques to unearth close similarities that may be used to infringe, defraud or confuse consumers.</p>
-          <strong><a href="/request-more-information/">Request More Information</a></strong>
+          <strong><a id="req-more-info-butt" href="/request-more-information/">Request More Information</a></strong>
         </div>
         <div id="altroots-right">
           <h3>To order your exacts-only watch, please complete the form below.</h3>
