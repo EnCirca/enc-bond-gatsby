@@ -4,9 +4,9 @@ title: Terms
 thumbnail: ../../assets/altroots-logo-250.png
 date: 2022-07-13T22:26:31.472Z
 ---
-<h2>EnCirca Altroots Terms and Conditions</h2>
+<h2>EnCirca AltRoots Terms and Conditions</h2>
 
-Encirca, Inc. (“Encirca”) is a provider of Altroots brand protection services.  These Encirca AltRoots Terms and Conditions (the “Agreement”) apply to Encirca’s Altroots Service, which is a trademark research tool for discovering exact and close matches for blockchain domain names.
+Encirca, Inc. (“Encirca”) is a provider of AltRoots brand protection services.  These Encirca AltRoots Terms and Conditions (the “Agreement”) apply to Encirca’s AltRoots Service, which is a trademark research tool for discovering exact and close matches for blockchain domain names.
 
 1. <ins>Definitions.</ins>
    (a)	The following terms, when appearing with a capital letter, have the meaning set forth below:
@@ -146,7 +146,7 @@ Encirca, Inc. (“Encirca”) is a provider of Altroots brand protection service
 
 16. <ins>Independent contractors</ins>: The Parties are independent contractors and nothing in the Agreement shall constitute or be deemed to constitute a partnership, joint venture or agency between the Parties; as such neither Party shall have any authority or power to bind, contract in the name of or create a liability for or against the other.
 
-17. <ins>Assignment</ins>: Neither Party may assign or transfer any of its rights or obligations under the Agreement or otherwise dispose of the Agreement without the prior written consent of the other Party, except as otherwise provided for in the Agreement, and to not be unreasonably withheld. Notwithstanding the above, Customer shall be entitled to assign or transfer the Agreement to one of its Affiliates, and Encirca shall be entitled to assign or transfer the Agreement in connection with a change of control, merger, or sale of all or substantially all of its assets related to the Altroots Services.
+17. <ins>Assignment</ins>: Neither Party may assign or transfer any of its rights or obligations under the Agreement or otherwise dispose of the Agreement without the prior written consent of the other Party, except as otherwise provided for in the Agreement, and to not be unreasonably withheld. Notwithstanding the above, Customer shall be entitled to assign or transfer the Agreement to one of its Affiliates, and Encirca shall be entitled to assign or transfer the Agreement in connection with a change of control, merger, or sale of all or substantially all of its assets related to the AltRoots Services.
 
 18. <ins>Export Compliance</ins>: The Services, other Encirca technology, and derivatives thereof may be subject to export laws and regulations of the United States and other relevant jurisdictions. Encirca and Customer each represents that it is not named on any U.S. government denied-party list. Customer will not permit any Authorized Person or user of the Services to access or use any Service or Content in a U.S.- embargoed country or region (currently Cuba, Iran, North Korea, Sudan, Syria or Crimea) or in violation of any U.S. export law or regulation.
 

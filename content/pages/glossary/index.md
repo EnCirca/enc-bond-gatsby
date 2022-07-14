@@ -4,7 +4,7 @@ title: Glossary
 thumbnail: ../../assets/altroots-logo-250.png
 date: 2022-07-13T21:30:58.732Z
 ---
-## **Altroots.com Glossary**
+## **AltRoots Glossary**
 
 **Claimable**
 
