@@ -12,8 +12,8 @@ AltRoots checks a trademark against nearly 8 million blockchain domains across m
 
 Several levels of services are available:
 
-* Exact-only Search
-* Exact-only annual Watch
+* Exacts-only Search
+* Exacts-only annual Watch
 * Close similarities Search
 * Close similarities annual Watch
 
@@ -31,6 +31,14 @@ We offer two levels of annual trademark watch subscriptions:  
 
 1. Exacts-only watch.  Includes an initial history report plus on-going watch notices, sent at least monthly.   Cost is $59/year.  Report will also include a preview of the comprehensive report below.
 2. Comprehensive close similarities.  Exacts plus close similarities.  Includes an initial history report plus on-going watch notices, sent at least monthly.  First year cost is $2,000.  Renewals will be $500/year.  Note:  The exacts-only subscription must be ordered before upgrading to a comprehensive watch sub subscription.
+
+**How often do you send reports to me?**
+
+You can opt to receive a one time report or our annual subscription which will send you monthly reports.
+
+**What does the report tell me?**
+
+Our reporting will scan millions of blockchains for your trademark and inform you of your trademark’s status as either claimable, already registered, or available for registration across the major blockchain alternative roots.  With each result, EnCirca is here to help you take action.
 
 **Who runs Altroots.com?**
 
