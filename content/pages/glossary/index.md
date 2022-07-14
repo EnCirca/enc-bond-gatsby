@@ -19,9 +19,9 @@ Your searched trademark is already registered by someone else.  If you are the 
 If a domain is available, it can be registered on the blockchain. EnCirca can help you with that process. Register your domains here:
 
 <ul>
-<li>Handshake: <https://www.encirca.com/handshake-overview/>
-<li>Ethereum (.eth): <https://www.encirca.com/eth/>
-<li>Unstoppable (9 domains including .crypto, and .zil): <https://www.encirca.com/unustoppable/>
+<li>Handshake: <a href="https://www.encirca.com/handshake-overview/">www.encirca.com/handshake-overview/</a>
+<li>Ethereum (.eth): <a href="https://www.encirca.com/eth/">www.encirca.com/eth/</a>
+<li>Unstoppable (9 domains including .crypto, and .zil): <a href="https://www.encirca.com/unstoppable/">www.encirca.com/unstoppable/</a>
 </ul>
 
 **Block**
