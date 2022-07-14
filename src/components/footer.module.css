@@ -53,10 +53,8 @@
   }
   .site-footer .menu {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
       align-items: flex-start;     
-      flex-wrap: nowrap;
       background: none;
   }
   .site-footer nav ul li.logo a {

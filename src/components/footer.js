@@ -34,6 +34,7 @@ const Footer = () => {
             </div> */}
             <nav>
                 <ul className={styles.menu}>
+                    <li className={styles.item}><a href="/">Home</a></li>
                     <li className={styles.item}><a target="_blank" href="https://www.encirca.com">EnCirca Inc.</a></li>
                     <li className={styles.item}><a href="/faq">FAQ</a></li>
                     <li className={styles.item}><a href="/glossary">Glossary</a></li>
