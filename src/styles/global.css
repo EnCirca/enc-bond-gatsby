@@ -108,8 +108,8 @@ form.enc-form div.enc-form-wrap-conainer div {
   position: fixed;
   width: 36px;
   height: 30px;
-  left: 36px;
-  top: 36px;
+  left: 18px;
+  top: 18px;
 }
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
