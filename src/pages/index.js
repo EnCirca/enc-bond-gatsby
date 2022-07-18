@@ -1,8 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
 import shareImage from "../../content/assets/default-content-image.jpg"
 import Checkout from "../components/checkout"
 
@@ -15,7 +14,7 @@ const Watch = ({ data }) => {
   return (
     <div>
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
-      <Header />
+      <Layout>
       {/* <div id="altroots-header-image"></div> */}
       <div id="altroots-watch-container">
         <div id="altroots-left">
@@ -35,7 +34,7 @@ const Watch = ({ data }) => {
           <p>Altroots is a service of EnCirca, Inc. EnCirca was founded in 2001 in Boston, Massachusetts and is an ICANN-Accredited domain name registrar. EnCirca is a leader in brand protection for both Web2 and Web3 domain names. For more information, please visit <a href="https://www.encirca.com">EnCirca online</a></p>
         </div>
       </div>
-      <Footer />
+      </Layout>
     </div>
   )
 }
