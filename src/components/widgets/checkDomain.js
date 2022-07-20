@@ -4,10 +4,10 @@ const CheckDomain = (props) => {
   // runs once with this sytax
   useEffect(() => {
     // widget options
-    if (props?.defaultTld) {
+    if (props.defaultTld) {
       window.encWidgetTldDefault = props.defaultTld;
     }
-    if (props?.tldSuggestions) {
+    if (props.tldSuggestions) {
       if (props.tldSuggestions === "false" || props.tldSuggestions === "FALSE" || props.tldSuggestions === false) {
         window.encWidgetTldSuggestions = false;
       } else {
@@ -30,7 +30,7 @@ const CheckDomain = (props) => {
         placeholder.parentNode.insertBefore(scriptWidget, placeholder);
       }
     }
-  }, [props?.partnerId, props?.defaultTld, props?.tldSuggestions]);
+  }, []);
   // return rendered html
   return (
     <div id="enc-checkDomain-embed"></div>
