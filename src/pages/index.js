@@ -14,7 +14,27 @@ const Watch = ({ data }) => {
     <div>
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
       <Layout>
-        
+        <div id="bond-check-container">
+          <div id="bond-left">
+            <h2>
+              .bond is where the ﬁnancial and online worlds meet
+            </h2>
+            <p>
+              This premium domain extension is ideal for ﬁnancial service providers, advisers, and 
+              investors. .bond links clients to the experts they are looking for, reinforcing a trusted 
+              and stable ﬁnancial solution.
+            </p>
+            <p>
+              Using a .bond domain extension sends strong and positive connotations to your visitors 
+              and reinforces the beneﬁts clients will receive when working with your ﬁrm. .bond also 
+              doubles up as a meaningful extension for those who wish to use it to highlight the 
+              special bonds that they have with friends and family.
+            </p>
+          </div>
+          <div id="bond-right">
+            Check Widget
+          </div>
+        </div>
       </Layout>
     </div>
   )

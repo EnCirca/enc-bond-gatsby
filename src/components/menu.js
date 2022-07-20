@@ -12,15 +12,6 @@ class MobileNav extends React.Component {
       <Link to="https://www.encirca.com/" className="menu-item" >
         EnCirca Inc.
       </Link>
-      <Link to="/faq" className="menu-item" >
-        F.A.Q.
-      </Link>
-      <Link to="/glossary" className="menu-item" >
-        Glossary
-      </Link>
-      <Link to="/terms" className="menu-item" >
-        Terms
-      </Link>
       <Link to="/contact" className="menu-item" >
         Contact
       </Link>

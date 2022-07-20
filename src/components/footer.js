@@ -36,9 +36,6 @@ const Footer = () => {
                 <ul className={styles.menu}>
                     <li className={styles.item}><a href="/">Home</a></li>
                     <li className={styles.item}><a rel="noreferrer" target="_blank" href="https://www.encirca.com">EnCirca Inc.</a></li>
-                    <li className={styles.item}><a href="/faq">FAQ</a></li>
-                    <li className={styles.item}><a href="/glossary">Glossary</a></li>
-                    <li className={styles.item}><a href="/terms">Terms</a></li>
                     <li className={styles.item}><a href="/contact">Contact</a></li>
                 </ul>
             </nav>

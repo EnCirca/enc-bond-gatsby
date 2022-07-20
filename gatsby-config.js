@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `.Bond Registration`,
+    title: `EnCirca, Inc. .Bond Domain Registration`,
     author: {
       name: `EnCirca Inc.`,
       summary: `SOC 2 AUDITED`,
