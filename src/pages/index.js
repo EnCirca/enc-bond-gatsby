@@ -3,6 +3,8 @@ import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import shareImage from "../../content/assets/default-content-image.jpg"
+import CheckDomain from "../components/widgets/checkDomain"
+
 
 const Watch = ({ data }) => {
   
@@ -32,7 +34,7 @@ const Watch = ({ data }) => {
             </p>
           </div>
           <div id="bond-right">
-            Check Widget
+          <CheckDomain partnerId="5da73bd237d476790029204c" defaultTld="bond" tldSuggestions="" />
           </div>
         </div>
       </Layout>
