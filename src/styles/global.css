@@ -170,6 +170,9 @@ form.enc-form div.enc-form-wrap-conainer div {
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
+#encDisplaySingleDomain {
+  display: none;
+}
 @media only screen and (max-width: 1300px) {
   #bond-check-container #bond-left,
   #bond-check-container #bond-right {
