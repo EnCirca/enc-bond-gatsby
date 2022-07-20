@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import '../../css/widget.css';
 
 const Checkout = (props) => {
   // runs once with this sytax
@@ -20,7 +19,7 @@ const Checkout = (props) => {
         placeholder.parentNode.insertBefore(scriptWidget, placeholder);
       }
     }
-  }, [props?.partnerId]);
+  }, []);
   // return rendered html
   return (
 	  <div id="enc-checkout-embed"></div>
