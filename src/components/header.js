@@ -1,6 +1,6 @@
 import React from "react"
 // import EncHelper from "../../src/components/encHelper"
-import logo from "../../content/assets/altroots-logo.png"
+import logo from "../../content/assets/bond-logo.png"
 import styles from "./header.module.css"
 import { useStaticQuery, graphql } from "gatsby"
 

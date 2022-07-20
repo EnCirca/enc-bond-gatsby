@@ -1,27 +1,12 @@
-// our custom stuff
-if (process.env.NODE_ENV == 'development') {
-  require("dotenv").config({
-    path: `.env.dev`,
-  });
-} else if (process.env.BRANCH == 'qa') {
-  require("dotenv").config({
-    path: `.env.qa`,
-  });
-} else {
-  require("dotenv").config({
-    path: `.env.prod`,
-  });
-}
-
 module.exports = {
   siteMetadata: {
-    title: `AltRoots Trademark Watch`,
+    title: `.Bond Registration`,
     author: {
       name: `EnCirca Inc.`,
       summary: `SOC 2 AUDITED`,
     },
-    description: `AltRoots Blog`,
-    siteUrl: `https://www.altroots.com/`,
+    description: `.Bond Domain Registration`,
+    siteUrl: `https://www.build.bond/`,
     social: {
       twitter: `encirca`,
       instagram: `encirca`,
@@ -67,7 +52,6 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
@@ -75,12 +59,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-6032823-4`,
-      },
-    },
     {
       resolve:`gatsby-plugin-sitemap`,
       options: {
