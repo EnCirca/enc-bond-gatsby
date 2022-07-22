@@ -18,6 +18,9 @@ const Watch = ({ data }) => {
       <Layout>
         <div id="bond-check-container">
           <div id="bond-left">
+            <CheckDomain partnerId="5da73bd237d476790029204c" defaultTld="bond" tldSuggestions="" />
+          </div>
+          <div id="bond-right">
             <h2>
               .bond is where the ﬁnancial and online worlds meet
             </h2>
@@ -32,9 +35,6 @@ const Watch = ({ data }) => {
               doubles up as a meaningful extension for those who wish to use it to highlight the 
               special bonds that they have with friends and family.
             </p>
-          </div>
-          <div id="bond-right">
-          <CheckDomain partnerId="5da73bd237d476790029204c" defaultTld="bond" tldSuggestions="" />
           </div>
         </div>
       </Layout>
