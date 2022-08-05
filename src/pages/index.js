@@ -18,7 +18,7 @@ const Watch = ({ data }) => {
       <Layout>
         <div id="bond-check-container">
           <div id="bond-left">
-            <CheckDomain partnerId="5da73bd237d476790029204c" defaultTld="bond" tldSuggestions="" />
+            <CheckDomain partnerId="62e14223d4c9c41e47688e00" defaultTld="bond" tldSuggestions="" />
           </div>
           <div id="bond-right">
             <h2>
@@ -35,6 +35,12 @@ const Watch = ({ data }) => {
               doubles up as a meaningful extension for those who wish to use it to highlight the 
               special bonds that they have with friends and family.
             </p>
+          </div>
+          <div id="bond-left">
+          <iframe width="488" height="275" src="https://www.youtube.com/embed/ny7H5PRRM2k" title=".bond is Live and Perfect for the Financial Services Industry!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div id="bond-right">
+"Linked in Coming Soon"
           </div>
         </div>
       </Layout>

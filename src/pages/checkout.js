@@ -17,7 +17,7 @@ const Watch = ({ data }) => {
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
       <Layout>
         <div id="bond-check-container">
-          <Checkout partnerId="5da73bd237d476790029204c" defaultTld="bond" tldSuggestions="" />
+          <Checkout partnerId="62e14223d4c9c41e47688e00" defaultTld="bond" tldSuggestions="" />
         </div>
       </Layout>
     </div>
