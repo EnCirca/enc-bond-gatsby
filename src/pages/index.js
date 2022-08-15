@@ -37,7 +37,7 @@ const Watch = ({ data }) => {
             </p>
           </div>
           <div id="bond-left">
-          <iframe width="488" height="275" src="https://www.youtube.com/embed/ny7H5PRRM2k" title=".bond is Live and Perfect for the Financial Services Industry!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="488" height="275" src="https://www.youtube.com/embed/ny7H5PRRM2k"></iframe>
           </div>
           <div id="bond-right">
 "Linked in Coming Soon"
