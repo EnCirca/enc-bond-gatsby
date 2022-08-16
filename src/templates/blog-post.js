@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Bio from "../components/bio"
+// import Bio from "../components/bio"
 import Layout from "../components/layout"
 import ReadMore from "../components/read-more"
 import Share from "../components/share"
@@ -40,7 +40,7 @@ const BlogPostTemplate = ({ data, location }) => {
         <Topics topics={post.frontmatter.topics} />
 
         <footer>
-          <Bio />
+          {/* <Bio /> */}
         </footer>
       </article>
 
