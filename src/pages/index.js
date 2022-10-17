@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import shareImage from "../../content/assets/default-content-image.jpg"
 import CheckDomain from "../components/widgets/checkDomain"
 
-
 const Watch = ({ data }) => {
   // const siteTitle = data.site.siteMetadata.title
   const siteDescription = data.site.siteMetadata.description
@@ -22,7 +21,7 @@ const Watch = ({ data }) => {
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
       <Layout>
         <div id="bond-check-container">
-          <div id="bond-left">
+          <div id="bond-left" style={{flexBasis:'50%', display:'none'}}>
             <CheckDomain partnerId="62e14223d4c9c41e47688e00" defaultTld="bond" tldSuggestions="" />
             <div>
               <h2>.bond is where the ﬁnancial and online worlds meet</h2>
@@ -34,7 +33,7 @@ const Watch = ({ data }) => {
               </p>
             </div>
           </div>
-          <div id="bond-right">
+          <div id="bond-right" style={{flexBasis: '30%'}}>
             <h5>Click to discover available premium .bond names.</h5>
 				    <div>
               <select onChange={handleChange}>
