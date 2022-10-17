@@ -11,7 +11,11 @@ const Watch = ({ data }) => {
   const siteDescription = data.site.siteMetadata.description
   const siteUrl = data.site.siteMetadata.siteUrl
   const handleChange = (e) => {
-    window.location.replace(e.target.value);
+    // window.location.replace(e.target.value);
+    const encDomainName = document.getElementById('enc-domain-name');
+    encDomainName.value = e.target.value;
+    document.getElementById('enc-search-button').click();
+    return false;
   }
   return (
     <div>
@@ -34,9 +38,9 @@ const Watch = ({ data }) => {
             <h5>Click to discover available premium .bond names.</h5>
 				    <div>
               <select onChange={handleChange}>
-                <option value="https://getmy.bond/?domain=a1.bond">a1.bond $768</option>
-                <option value="https://getmy.bond/?domain=aaa.bond">aaa.bond $768</option>
-                <option value="https://getmy.bond/?domain=about.bond">about.bond $384</option>
+                <option value="a1.bond">a1.bond $768</option>
+                <option value="aaa.bond">aaa.bond $768</option>
+                <option value="about.bond">about.bond $384</option>
                 <option value="https://getmy.bond/?domain=account.bond">account.bond $384  </option>
                 <option value="https://getmy.bond/?domain=accountancy.bond">accountancy.bond $768  </option>
                 <option value="https://getmy.bond/?domain=accounting.bond">accounting.bond $768  </option>
