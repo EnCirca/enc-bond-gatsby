@@ -77,7 +77,8 @@ form.enc-form div.enc-form-wrap-conainer div {
   height: 200px;
   background-color: #ED1848;
 }
-#bond-check-container {
+#bond-check-container,
+.bond-check-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -86,7 +87,13 @@ form.enc-form div.enc-form-wrap-conainer div {
   margin: 0 auto 0 auto;
 }
 #bond-check-container #bond-left,
-#bond-check-container #bond-right {
+.bond-check-container #bond-left,
+#bond-check-container #bond-right,
+.bond-check-container #bond-right,
+#bond-check-container .bond-left,
+.bond-check-container .bond-left,
+#bond-check-container .bond-right,
+.bond-check-container .bond-right {
   flex-basis: 40%;
   padding: 30px;
   max-width: 800px;

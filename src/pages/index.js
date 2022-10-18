@@ -20,12 +20,11 @@ const Watch = ({ data }) => {
     <div>
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
       <Layout>
-        <div id="bond-check-container">
+        <div class="bond-check-container">
         <CheckDomain partnerId="62e14223d4c9c41e47688e00" defaultTld="bond" tldSuggestions="" />
         </div>
-        <div id="bond-check-container">
-          <div id="bond-left">
-            
+        <div class="bond-check-container">
+          <div class="bond-left">
             <div>
               <h2>.bond is where the ﬁnancial and online worlds meet</h2>
               <p>
@@ -36,7 +35,7 @@ const Watch = ({ data }) => {
               </p>
             </div>
           </div>
-          <div id="bond-right">
+          <div class="bond-right">
             <h5>Click to discover available premium .bond names.</h5>
 				    <div>
               <select onChange={handleChange}>
@@ -323,11 +322,11 @@ const Watch = ({ data }) => {
               </select>
             </div>
           </div>
-          <div id="bond-check-container">
-            <div id="bond-left">
+          <div class="bond-check-container">
+            <div class="bond-left">
               <div class="taggbox" data-widget-id="110869" data-tags="false"></div><script src="https://widget.taggbox.com/embed-lite.min.js" type="text/javascript"></script>
             </div>
-            <div id="bond-right">
+            <div class="bond-right">
               <iframe width="100%"  height="500px" src="https://www.youtube.com/embed/ny7H5PRRM2k"></iframe>
             </div>
           </div>
