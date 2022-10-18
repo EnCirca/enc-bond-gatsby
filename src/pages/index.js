@@ -21,8 +21,11 @@ const Watch = ({ data }) => {
       <SEO title="Welcome" description={siteDescription} image={siteUrl + shareImage} url={siteUrl + "/"} />
       <Layout>
         <div id="bond-check-container">
-          <div id="bond-left" style={{flexBasis:'50%', display:'none'}}>
-            <CheckDomain partnerId="62e14223d4c9c41e47688e00" defaultTld="bond" tldSuggestions="" />
+        <CheckDomain partnerId="62e14223d4c9c41e47688e00" defaultTld="bond" tldSuggestions="" />
+        </div>
+        <div id="bond-check-container">
+          <div id="bond-left">
+            
             <div>
               <h2>.bond is where the ﬁnancial and online worlds meet</h2>
               <p>
@@ -33,7 +36,7 @@ const Watch = ({ data }) => {
               </p>
             </div>
           </div>
-          <div id="bond-right" style={{flexBasis: '30%'}}>
+          <div id="bond-right">
             <h5>Click to discover available premium .bond names.</h5>
 				    <div>
               <select onChange={handleChange}>
